@@ -15,6 +15,6 @@ COPY webroot /var/www/html
 RUN chmod +x /start.sh \
     && chown -R www-data:www-data /var/www/html
 
-EXPOSE 8080
+EXPOSE 443
 
 CMD ["/start.sh"]

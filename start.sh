@@ -1,9 +1,10 @@
 #!/bin/ash
-rm -rf /home/container/tmp/*
+
+# Clean tmp folder (optional)
+rm -rf /var/www/html/tmp/*
 
 echo "⟳ Starting PHP-FPM..."
-/usr/sbin/php-fpm8 --fpm-config /home/container/php-fpm/php-fpm.conf --daemonize
+php-fpm &  # Runs in background
 
 echo "⟳ Starting Nginx..."
-echo "✓ Successfully started"
-/usr/sbin/nginx -c /home/container/nginx/nginx.conf -p /home/container/
+nginx -g "daemon off;"  # Runs in foreground to keep container alive
