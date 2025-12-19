@@ -1,7 +1,20 @@
-FROM php:8.2-cli
+FROM php:8.2-fpm-alpine
 
-WORKDIR /app
+# Install nginx
+RUN apk add --no-cache nginx
 
-COPY . .
+# Create directories
+RUN mkdir -p /run/nginx
 
-CMD php -S 0.0.0.0:$PORT -t public
+# Copy configs and site files
+COPY nginx.conf /etc/nginx/nginx.conf
+COPY start.sh /start.sh
+COPY webroot /var/www/html
+
+# Permissions
+RUN chmod +x /start.sh \
+    && chown -R www-data:www-data /var/www/html
+
+EXPOSE 8080
+
+CMD ["/start.sh"]
