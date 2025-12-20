@@ -1,24 +1,13 @@
 /* Sets base font for the whole site */
 body 
 {
-    font-family: Arial, sans-serif;
-    margin: 20px;
-    padding: 20px;
-    background-color: red !important;
-    
+  background-color: powderblue;
 }
-
-/* Styles a specific class */
-.main-header {
-    background-color: #333;
-    color: white;
-    padding: 20px;
-    text-align: center;
+h1 
+{
+  color: blue;
 }
-
-/* Flexbox for navigation */
-nav ul {
-    display: flex;
-    justify-content: center;
-    list-style-type: none;
+p 
+{
+  color: red;
 }
