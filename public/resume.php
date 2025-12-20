@@ -5,7 +5,7 @@
         <title>Resume</title>
     </head>
     <body>
-        <?php include 'navbar.html'; ?>
+        <?php include "navbar.html"; ?>
 
         <p>Todo list</p>
         <p>Welcome to Thor, S. Kopenkoskey's (tskopen) resume</p>
