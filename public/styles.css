@@ -24,7 +24,7 @@ ul {
 } 
 ul.nav-menu {
   list-style-type: none;
-  margin: 0;
+  margin: 30px;
   padding: 0;
   background-color: #2e2e2e;
   display: flex;
