@@ -1,14 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styles.css?v=2">
+        <?php $version = "1.02.0"; ?>
+        <link rel="stylesheet" href="styles.css?v=?php echo $version; ?>">
         <title>V1.02</title>
         
-        <ul>
-        <li><a href="index.html">Home</a></li>     
-        <li><a href="resume.html">Resume</a></li>
-        <li><a href="rocketry.html">Resume</a></li>
-        </ul> 
+    <?php include 'navbar.html'; ?>
     </head>
     <body>
         <p>Test body</p>
