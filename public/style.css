@@ -1,8 +1,9 @@
 /* Sets base font for the whole site */
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
+body 
+{
+    font-family: Roboto;
+    margin: 20;
+    padding: 20;
     background-color: #D3D3D3;
 }
 
