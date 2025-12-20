@@ -1,4 +1,4 @@
-<link rel="stylesheet" href="styles.css?v=?php echo $version; ?>">
+<link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
 
 <nav>
   <ul class="nav-menu">

@@ -1,9 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php $version = "1.02.6"; ?>
-        <link rel="stylesheet" href="styles.css?v=?php echo $version; ?>">
-        <title>V1.02</title>
+        <?php $version = "1.03.1"; ?>
+        <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
+        <title>tskopen</title>
         
     </head>
     <body>

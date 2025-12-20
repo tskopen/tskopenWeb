@@ -1,11 +1,11 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <link rel="stylesheet" href="styles.css?v=?php echo $version; ?>">
+        <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
         <title>Resume</title>
     </head>
     <body>
-        
+
     <?php include "navbar.php"; ?>
 
     <h1>Thor Kopenkoskey</h1>
