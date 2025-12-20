@@ -49,3 +49,23 @@ ul.nav-menu li a {
 ul li a:last-child {
   border-right: none;
 }
+
+.project {
+    max-width: 900px;
+    margin: auto;
+    padding: 2rem;
+}
+
+.code-entry {
+    border-left: 4px solid #2a7cda;
+    padding-left: 1rem;
+    margin-bottom: 1.5rem;
+}
+
+pre {
+    background: #1e1e1e;
+    color: #dcdcdc;
+    padding: 1rem;
+    overflow-x: auto;
+}
+

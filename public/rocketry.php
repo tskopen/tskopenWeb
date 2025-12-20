@@ -6,10 +6,25 @@
         <title>V1.02</title>
         
     </head>
-    <body>
-        <?php include "navbar.php"; ?>
+    <main class="project">
+        <section class="hero">
+            <h1>Active Control Rocketry System</h1>
+            <p>
+                A custom avionics and telemetry system for experimental rocketry,
+                featuring LoRa communications, onboard sensing, and real-time ground visualization.
+            </p>
+        </section>
 
-        <p>Insert Rocketry</p>
+        <section>
+            <h2>System Overview</h2>
+            <ul>
+                <li>Custom PCB with ESP-based controller</li>
+                <li>LoRa telemetry at 937 MHz</li>
+                <li>Servo-actuated fin control</li>
+                <li>GPS (NEO-6M), IMU, magnetometer</li>
+            </ul>
+        </section>
 
-    </body>
+
+
 </html>
