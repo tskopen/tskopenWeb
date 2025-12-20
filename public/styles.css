@@ -28,7 +28,7 @@ ul.nav-menu {
   padding: 0;
   background-color: #2e2e2e;
   display: flex;
-  position: fixed;
+  position: sticky;
   top: 0;
   width: 100%;
 }
