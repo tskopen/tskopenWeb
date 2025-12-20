@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php $version = "1.02.1"; ?>
+        <?php $version = "1.02.2"; ?>
         <link rel="stylesheet" href="styles.css?v=?php echo $version; ?>">
         <title>V1.02</title>
         
