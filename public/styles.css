@@ -13,8 +13,7 @@ p
   color: rgb(42, 34, 34);
 }
 
-ul 
-{
+ul.nav-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
@@ -25,7 +24,7 @@ ul
   width: 100%;
 }
 
-ul li a {
+ul.nav-menu li a {
   display: block;
   color: white;
   padding: 14px 16px;

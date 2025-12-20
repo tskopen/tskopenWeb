@@ -5,7 +5,8 @@
         <title>Resume</title>
     </head>
     <body>
-        <?php include "navbar.php"; ?>
+        
+    <?php include "navbar.php"; ?>
 
     <h1>Thor Kopenkoskey</h1>
     <strong>Email:</strong> tskopen@gmail.com
