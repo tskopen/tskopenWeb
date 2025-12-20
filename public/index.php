@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php $version = "1.03.3"; ?>
+        <?php $version = "1.03.4"; ?>
         <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
         <title>tskopen</title>
         
