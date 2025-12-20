@@ -10,7 +10,6 @@ RUN mkdir -p /run/nginx
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY start.sh /start.sh
 COPY public /var/www/html
-COPY style.css /usr/share/nginx/html/
 
 
 
