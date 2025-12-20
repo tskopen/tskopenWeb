@@ -5,12 +5,12 @@ body
 
 h1 
 {
-  color: rgb(239, 0, 0);
+  color: rgb(32, 26, 26);
 }
 
 p 
 {
-  color: rgb(150, 8, 8);
+  color: rgb(42, 34, 34);
 }
 
 ul 
@@ -18,7 +18,7 @@ ul
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #333333;
+  background-color: #2e2e2e;
   display: flex;
   position: fixed;
   top: 0;
