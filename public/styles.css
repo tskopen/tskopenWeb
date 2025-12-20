@@ -1,13 +1,13 @@
 /* Sets base font for the whole site */
 body 
 {
-  background-color: powderblue;
+  background-color: grey;
 }
 h1 
 {
-  color: blue;
+  color: black;
 }
 p 
 {
-  color: red;
+  color: black;
 }
