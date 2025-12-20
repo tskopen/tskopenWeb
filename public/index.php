@@ -11,7 +11,7 @@
 
 
         <p>Test body</p>
-        <p>Welcome to Thor, S. Kopenkoskey's (tskopen) website</p>
-        <p>Coded from scratch with ningx</p>
+        <p>Welcome to Thor Kopenkoskey's website</p>
+        <p>Coded from scratch with ningx with PHP</p>
     </body>
 </html>
