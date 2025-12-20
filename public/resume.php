@@ -22,7 +22,7 @@
     <h2>Education</h2>
     <strong>Computer Engineering Student</strong>, Florida Institute of Technology — Melbourne, FL<br>
     <strong>Satellite High School</strong> — Satellite Beach, FL<br>
-    4.34 Weighted GPA | #1 Class Rank (2022–23, 2023–24)<br>
+    4.34 Weighted GPA | #1 Class Rank (2022&ndash;23, 2023&ndash;24)<br>
     Dual Enrollment, Eastern Florida State College — President’s List (2025)
 
     <hr>
@@ -38,7 +38,7 @@
     <hr>
 
     <h2>STEM Projects & Research</h2>
-    <strong>Active Guidance Rocket & Flight Computer</strong> (2024–Present)<br>
+    <strong>Active Guidance Rocket & Flight Computer</strong> (2024&ndash;Present)<br>
     Designed an ESP32-based telemetry and control system using LoRa communication for model rocketry.
     Developed PCB schematics and firmware for servo, pyro, and sensor control.
     <br>
@@ -49,7 +49,7 @@
     Led a team designing a low-cost CubeSat communication system; placed 5th nationally.
     <br><br>
 
-    <strong>Science Research Project</strong> (2024–2025)<br>
+    <strong>Science Research Project</strong> (2024&ndash;2025)<br>
     Conducted a materials study combining waste carbon fiber and concrete to create a ductile break pattern.
     Earned 1st Place in Engineering at the Intracoastal Science Fair and qualified for the State Science and Engineering Fair.
 
@@ -57,15 +57,15 @@
 
     <h2>Awards & Honors</h2>
     <ul>
-        <li>1st Place – Engineering Category, Intracoastal Science Fair (2025)</li>
-        <li>$84,000 Scholarship – Florida Institute of Technology (Outstanding Scientific Ability & Curiosity, 2025)</li>
+        <li>1st Place &ndash; Engineering Category, Intracoastal Science Fair (2025)</li>
+        <li>$84,000 Scholarship &ndash; Florida Institute of Technology (Outstanding Scientific Ability & Curiosity, 2025)</li>
         <li>Invited: Florida State Science & Engineering Fair, Nelson Ying Fair, Lockheed Martin Fair (2025)</li>
-        <li>5th Place – Chemistry Category, Intracoastal Science Fair (2024)</li>
+        <li>5th Place &ndash; Chemistry Category, Intracoastal Science Fair (2024)</li>
         <li>Eagle Scout with Bronze, Gold, and Silver Palms (2024)</li>
         <li>Air Force Distinguished Cadet (2025)</li>
         <li>AFJROTC Scholastic Award (2024)</li>
         <li>Florida Boys State Participant & Assembly Pro Tempore (2025)</li>
-        <li>MIT CubeSat Challenge – 5th of 32 teams (2024)</li>
+        <li>MIT CubeSat Challenge &ndash; 5th of 32 teams (2024)</li>
     </ul>
 
     <hr>
@@ -89,7 +89,7 @@
     <hr>
 
     <h2>Work Experience</h2>
-    <strong>Customer Service / Trainer</strong> — The Fat Donkey (June 2024–Present)
+    <strong>Customer Service / Trainer</strong> — The Fat Donkey (June 2024&ndash;Present)
     <ul>
         <li>Trained 6 new employees</li>
         <li>Managed shop operations, inventory, and cash handling independently</li>
@@ -101,9 +101,9 @@
     <h2>Community Service & Volunteerism</h2>
     140+ Service Hours
     <ul>
-        <li><strong>Scouting America</strong> (2009–Present): Community cleanups, facility projects, civic events</li>
-        <li><strong>AFJROTC FL-035</strong> (2021–Present): Campus and community service projects</li>
-        <li><strong>City of Melbourne</strong> (2022–Present): Coastal preservation and beach cleanups</li>
+        <li><strong>Scouting America</strong> (2009&ndash;Present): Community cleanups, facility projects, civic events</li>
+        <li><strong>AFJROTC FL-035</strong> (2021&ndash;Present): Campus and community service projects</li>
+        <li><strong>City of Melbourne</strong> (2022&ndash;Present): Coastal preservation and beach cleanups</li>
     </ul>
 
     <hr>
