@@ -24,9 +24,9 @@ ul {
 } 
 ul.nav-menu {
   list-style-type: none;
-  margin: 30px;
+  margin: 0;
   padding: 0;
-  background-color: #2e2e2e;
+  background-color: #4c4c4c;
   display: flex;
   position: fixed;
   top: 0;  
@@ -39,6 +39,7 @@ ul li a{
   float: left;
   padding: 14px 16px;
   border-right: 1px solid #bbbbbb;
+  color: rgb(32, 32, 32);
 }
 
 ul li a:last-child {
