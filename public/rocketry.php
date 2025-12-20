@@ -6,7 +6,7 @@
         
     </head>
     <body>
-        <?php include "navbar.html"; ?>
+        <?php include "navbar.php"; ?>
 
         <p>Insert Rocketry</p>
 
