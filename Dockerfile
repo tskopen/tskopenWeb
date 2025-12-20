@@ -9,7 +9,7 @@ RUN mkdir -p /run/nginx
 # Copy configs and site files
 COPY nginx.conf /etc/nginx/nginx.conf
 COPY start.sh /start.sh
-COPY webroot /var/www/html
+COPY public /var/www/html
 
 # Permissions
 RUN chmod +x /start.sh \
