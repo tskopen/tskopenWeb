@@ -1,8 +1,9 @@
 <!DOCTYPE html>
 <html lang="en">
     <head>
-        <?php $version = "1.03.4"; ?>
+        <?php include 'config.php'; ?>
         <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
+
         <title>tskopen</title>
         
     </head>
