@@ -33,9 +33,12 @@ ul.nav-menu {
   width: 100%;
 }
 
-ul.nav-menu li a {
-  display: block;
-  color: white;
+ul li a{
+  float: left;
   padding: 14px 16px;
-  text-decoration: none;
+  border-right: 1px solid #bbbbbb;
+}
+
+ul li a:last-child {
+  border-right: none;
 }
