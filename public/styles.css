@@ -12,7 +12,10 @@ p
 {
   color: rgb(42, 34, 34);
 }
-
+a
+{
+  color: rgb(255, 255, 255);
+}
 ul {
   display: block;
   list-style-type: disc;
@@ -39,7 +42,6 @@ ul li a{
   float: left;
   padding: 14px 16px;
   border-right: 1px solid #bbbbbb;
-  color: rgb(32, 32, 32);
 }
 
 ul li a:last-child {
