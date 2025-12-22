@@ -3,8 +3,15 @@
 
 <nav>
   <ul class="nav-menu">
-    <li><a href="index.php">Home</a></li>
+        
+    <li><a href="index.php">Home</a></li>    
     <li><a href="resume.php">Resume</a></li>
-    <li><a href="rocketry.php">Rocketry Project (ARCS)</a></li>
-  </ul>
+    
+      <button class="dropbtn">Dropdown 
+        <i class="fa fa-caret-down"></i>
+      </button>
+      <div class="dropdown-content">
+        <li><a href="rocketry.php">Rocketry Project (ARCS)</a></li>
+      </div>
+    </ul>
 </nav>
