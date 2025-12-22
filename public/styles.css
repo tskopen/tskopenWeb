@@ -1,14 +1,11 @@
-<?php
-    header("Content-type: text/css; charset: UTF-8");
-?>
-
-$primary-color = "#D3D3D3"; 
-$header-color = "#201A1A"; 
-$paragraph-color = "#333333"; 
-$link-color = "#000000"; 
-$navbar-color = "#4c4c4c"; 
-$download-color = "#DEDEDE"; 
-
+:root {
+  --primary-color: #D3D3D3;
+  --header-color: #201A1A;
+  --paragraph-color: #333333;
+  --link-color: #000000;
+  --navbar-color: #4c4c4c;
+  --download-color: #DEDEDE;
+}
 
 
 body 
