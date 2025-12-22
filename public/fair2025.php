@@ -27,7 +27,16 @@
             The 150 g and 100 g carbon fiber samples exhibited gradual fracture behavior, retained post-crack structural cohesion, and required additional pressure beyond initial cracking to propagate fractures. In contrast, control samples failed catastrophically at the initial fracture PSI. These findings suggest fiber-reinforced concrete reduces sudden failure risk and may lower long-term infrastructure maintenance costs.
         </p>
     </section>
-    
+
+    <section>
+        <h2>Project Awards</h2>
+        <ul>
+        <li>1st Place &ndash; Engineering Category, Intracoastal Science Fair (2025)</li>
+        <li>$84,000 Scholarship to Florida Institute of Technology for Outstanding Scientific Ability & Curiosity (2025)</li>
+        <li>Invited: Florida State Science & Engineering Fair, Nelson Ying Fair, Lockheed Martin Fair (2025)</li>
+        </ul>
+    </section>
+
     <section>
         <h2>Introduction</h2>
         <p>
@@ -38,16 +47,6 @@
         </p>
         <p>
             Additionally, the aerospace industry discards thousands of tons of carbon fiber annually. Repurposing this waste material offers environmental and economic benefits. Given carbon fiber’s high tensile strength and resistance to elongation, it was hypothesized that carbon fiber reinforcement would enhance crack resistance and slow infrastructure degradation.
-        </p>
-    </section>
-    
-    <section>
-        <h2>Literature Review</h2>
-        <p>
-            Research on carbon fiber-reinforced concrete is limited. However, a notable study by the Strategic Highway Research Program (SHRP) investigated short pitch-based carbon fibers in highway concrete. While fibers increased air content and slightly reduced compressive strength, flexural strength and toughness improved substantially.
-        </p>
-        <p>
-            Concrete containing 0.189 vol.% carbon fiber demonstrated an 85% increase in flexural strength and a 205% increase in toughness at a 39% material cost increase. Researchers suggested further study at higher fiber contents.
         </p>
     </section>
     
@@ -70,7 +69,7 @@
             Statistical analysis using a P-test yielded non-significant differences in PSI values between control and fiber-reinforced samples. However, qualitative observations were notable.
         </p>
         <p>
-            Carbon fiber specimens fractured gradually, retained cohesion, and required additional pressure to propagate cracks. Control samples failed suddenly and catastrophically, losing all structural integrity.
+            Carbon fiber specimens fractured gradually, retained cohesion, and required additional pressure to propagate cracks. They had the characteristics of a ductile failure similar to steel reinforced concrete. Control samples failed suddenly and catastrophically, losing all structural integrity.
         </p>
     </section>
     
