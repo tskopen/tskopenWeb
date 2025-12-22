@@ -7,11 +7,16 @@
     <li><a href="index.php">Home</a></li>    
     <li><a href="resume.php">Resume</a></li>
     
-      <button class="dropbtn">Dropdown 
-        <i class="fa fa-caret-down"></i>
-      </button>
+
+    <div class="dropdown">
+      <button class="dropbtn">Projects</button>
       <div class="dropdown-content">
-        <li><a href="rocketry.php">Rocketry Project (ARCS)</a></li>
+        <a href="rocketry.php">Rocketry (ARCS)</a>
       </div>
-    </ul>
+    </div>
+
+    
+  </ul>
 </nav>
+
+
