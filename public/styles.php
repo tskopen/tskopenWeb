@@ -1,22 +1,35 @@
+<?php
+    header("Content-type: text/css; charset: UTF-8");
+?>
+
+$primary-color = "#D3D3D3"; 
+$header-color = "#201A1A"; 
+$paragraph-color = "#333333"; 
+$link-color = "#000000"; 
+$navbar-color = "#4c4c4c"; 
+$download-color = "#DEDEDE"; 
+
+
+
 body 
 {
   padding-top: 50px;
-  background-color: #D3D3D3;
+  background-color: var(--body-background-color);
 }
 
 h1 
 {
-  color: rgb(32, 26, 26);
+  color: var(--header-color);
 }
 
 p 
 {
-  color: rgb(42, 34, 34);
+  color: var(--paragraph-color);
 }
 
 a
 {
-  color: rgb(255, 255, 255);
+  color: var(--link-color);
 }
 
 ul {
@@ -33,7 +46,7 @@ ul.nav-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: #4c4c4c;
+  background-color: var(--navbar-color);
   display: flex;
   position: fixed;
   top: 0;
@@ -73,7 +86,7 @@ ul li a:last-child {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: #4c4c4c;
+  background-color: var(--navbar-color);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -93,7 +106,7 @@ ul li a:last-child {
 }
 
 .project {
-    max-width: 900px;
+    max-width: 1200px;
     margin: auto;
     padding: 2rem;
 }
@@ -122,6 +135,6 @@ pre {
 
 .downloadBtn:hover .downloadBtn {
   display: block;
-  color: white;
+  color: var(--download-color);
 
 }
