@@ -3,21 +3,16 @@
 
 <nav>
   <ul class="nav-menu">
-        
-    <li><a href="index.php">Home</a></li>    
+    <li><a href="index.php">Home</a></li>
     <li><a href="resume.php">Resume</a></li>
-    
-
-    <div class="dropdown">
+  
+    <li class="dropdown">
       <button class="dropbtn">Projects</button>
       <div class="dropdown-content">
         <a href="rocketry.php">Rocketry (ARCS)</a>
         <a href="fair2025.php">Materials Study</a>
-
       </div>
-    </div>
-
-    
+    </li>
   </ul>
 </nav>
 
