@@ -8,14 +8,15 @@
     </head>
     <?php include "navbar.php"; ?>
 
-    <header>
-        <h1>Active Rocketry Control System &ndash; ARCS</h1>
-        <div class="subtitle">
-            Exploration of embedded systems and programming, and PCB development.
-        </div>
-    </header>
-
     <main class="project">
+
+        <header>
+            <h1>Active Rocketry Control System &ndash; ARCS</h1>
+            <div class="subtitle">
+                Exploration of embedded systems and programming, and PCB development.
+            </div>
+        </header>
+
             <h1>Introduction</h1>
             <p>
                 A custom avionics and telemetry system for experimental rocketry,
