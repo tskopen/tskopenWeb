@@ -147,6 +147,8 @@
         <li>Created tests, slides, and study guides</li>
         <li>Taught outdoor skills, navigation, and safety</li>
     </ul>
-
+    <a href="resume.pdf" download="resume.pdf" class="downloadBtn">
+        <button>Download Resume</button>
+    </a>
     </body>
     </html>
