@@ -12,6 +12,8 @@
       <button class="dropbtn">Projects</button>
       <div class="dropdown-content">
         <a href="rocketry.php">Rocketry (ARCS)</a>
+        <a href="fair2025.php">Materials Study</a>
+
       </div>
     </div>
 
