@@ -4,7 +4,7 @@
     <head>
         <?php include 'config.php'; ?>
         <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
-        <title>Resume</title>
+        <title>Settings</title>
     </head>
     <body>
 
@@ -12,7 +12,7 @@
 
         
 <body>
-    <h1>Customize Site Colors</h1>
+    <h1><strong>Customize Site Colors!</strong></h1>
     <p>Below you can select different colors for the website. Changes will apply to all pages.</p>
 
     <div class="color-picker">
