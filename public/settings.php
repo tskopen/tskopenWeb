@@ -1,12 +1,18 @@
 <!DOCTYPE html>
+
 <html lang="en">
-<head>
-    <title>Settings</title>
-    <link rel="stylesheet" href="styles.css">
-    <?php include 'config.php'; ?> <!-- Includes JS -->
-</head>
+    <head>
+        <?php include 'config.php'; ?>
+        <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
+        <title>Settings</title>
+    </head>
+    <body>
+
+    <?php include "navbar.php"; ?>
+
+        
 <body>
-    <h1>Customize Site Colors</h1>
+    <h1><strong>Customize Site Colors!</strong></h1>
     <p>Below you can select different colors for the website. Changes will apply to all pages.</p>
 
     <div class="color-picker">
