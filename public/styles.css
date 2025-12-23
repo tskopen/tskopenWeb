@@ -11,7 +11,7 @@
 body 
 {
   padding-top: 50px;
-  background-color: var(--body-background-color);
+  background-color: var(--primary-color);
 }
 
 h1 
