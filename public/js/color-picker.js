@@ -22,7 +22,7 @@ document.addEventListener('DOMContentLoaded', () => {
     const navbarInput = document.getElementById('navbarColor');
 
     if (bgInput) {
-        bgInput.value = savedPrimary;
+        bgInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--primary-color').trim();
         bgInput.addEventListener('input', (e) => 
         {
             root.style.setProperty('--primary-color', e.target.value);
@@ -32,7 +32,7 @@ document.addEventListener('DOMContentLoaded', () => {
 
     if (headerInput) 
     {
-        headerInput.value = savedHeader;
+        bgInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--header-color').trim();
         headerInput.addEventListener('input', (e) => 
         {
             root.style.setProperty('--header-color', e.target.value);
@@ -41,7 +41,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (paragraphInput) 
     {
-        paragraphInput.value = savedParagraph;
+        bgInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--paragraph-color').trim();
         paragraphInput.addEventListener('input', (e) => 
         {
             root.style.setProperty('--paragraph-color', e.target.value);
@@ -50,7 +50,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (linkInput) 
     {
-        linkInput.value = linkParagraph;
+        bgInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--link-color').trim();
         linkInput.addEventListener('input', (e) => 
         {
             root.style.setProperty('--link-color', e.target.value);
@@ -59,7 +59,7 @@ document.addEventListener('DOMContentLoaded', () => {
     }
     if (navbarInput) 
     {
-        navbarInput.value = navbarParagraph;
+        bgInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--navbar-color').trim();
         navbarInput.addEventListener('input', (e) => 
         {
             root.style.setProperty('--navbar-color', e.target.value);
