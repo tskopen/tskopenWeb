@@ -12,6 +12,8 @@
         <a href="rocketry.php">Rocketry (ARCS)</a>
         <a href="fair2025.php">Materials Study</a>
         <a href="websiteproject.php">This Website</a>
+        
+    <li><a href="settings.php">Settings</a></li>
 
       </div>
     </li>
