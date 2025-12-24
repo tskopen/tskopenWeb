@@ -69,7 +69,6 @@ ul li a:last-child {
 .dropdown {
   float: left;
   overflow: hidden;
-  position: relative;
 }
 
 .dropdown .dropbtn {
