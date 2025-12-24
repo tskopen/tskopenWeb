@@ -40,10 +40,10 @@
         <input type="color" id="navbarColor" value="#4c4c4c">
     </div>
 
-        <button type="button" onclick="applyGrayTheme()">
+        <button id="grayThemeBtn">Gray</button>
             Gray Theme Preset
         </button>
-        <button type="button" onclick="applyGreenTheme()">
+        <button id="greenThemeBtn">Green</button>
             Green Theme Preset
         </button>
 

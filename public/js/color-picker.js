@@ -88,6 +88,20 @@ document.addEventListener('DOMContentLoaded', () =>
         localStorage.setItem('linkColor', preset.link);
         localStorage.setItem('navbarColor', preset.navbar);
     }
+
+    
+    const grayThemeBtn = document.getElementById('grayThemeBtn');
+    const greenThemeBtn = document.getElementById('greenThemeBtn');
+
+    if (grayThemeBtn) {
+        grayThemeBtn.addEventListener('click', window.applyGrayTheme);
+    }
+
+    if (greenThemeBtn) {
+        greenThemeBtn.addEventListener('click', window.applyGreenTheme);
+    }
+
+
     window.applyGrayTheme = () => applyPreset({
         bg: "#D3D3D3",
         header: "#201A1A",
