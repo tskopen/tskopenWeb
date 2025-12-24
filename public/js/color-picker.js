@@ -26,17 +26,26 @@ document.addEventListener('DOMContentLoaded', () =>
 
     function applyPreset(preset) 
     {
-        if (bgInput) bgInput.value = preset.bg;
-        if (headerInput) headerInput.value = preset.header;
-        if (paragraphInput) paragraphInput.value = preset.paragraph;
-        if (linkInput) linkInput.value = preset.link;
-        if (navbarInput) navbarInput.value = preset.navbar;
-
-        root.style.setProperty('--primary-color', preset.bg);
-        root.style.setProperty('--header-color', preset.header);
-        root.style.setProperty('--paragraph-color', preset.paragraph);
-        root.style.setProperty('--link-color', preset.link);
-        root.style.setProperty('--navbar-color', preset.navbar);
+        if (bgInput) {
+            bgInput.value = preset.bg;
+            bgInput.dispatchEvent(new Event('input'));  // triggers your input listener
+        }
+        if (headerInput) {
+            headerInput.value = preset.header;
+            headerInput.dispatchEvent(new Event('input'));
+        }
+        if (paragraphInput) {
+            paragraphInput.value = preset.paragraph;
+            paragraphInput.dispatchEvent(new Event('input'));
+        }
+        if (linkInput) {
+            linkInput.value = preset.link;
+            linkInput.dispatchEvent(new Event('input'));
+        }
+        if (navbarInput) {
+            navbarInput.value = preset.navbar;
+            navbarInput.dispatchEvent(new Event('input'));
+        }
     }
     window.applyGrayTheme = () => applyPreset
     ({
