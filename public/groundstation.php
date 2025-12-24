@@ -6,10 +6,12 @@
         <title>GroundStationUI</title>
         <script src="https://cdn.plot.ly/plotly-3.3.0.min.js" charset="utf-8"></script>
     </head>
+
     <?php include "navbar.php"; ?>
 
     <main class="project">
 
+    <body>
         <header>
             <h1>Groudnstation display for ARCS</h1>
             <div class="subtitle">
@@ -22,18 +24,7 @@
                 I put the groundstation on a webserver for ease of transportation and portability. AKA I dont need a drag a spare monitor places.
             </p>
         </div>
-        <script>
-
-            TESTER = document.getElementById('tester');
-
-            Plotly.newPlot( TESTER, [{
-
-            x: [1, 2, 3, 4, 5],
-
-            y: [1, 2, 4, 8, 16] }], {
-
-            margin: { t: 0 } } );
-
-        </script>
-
+        
+        <div id="barometerchart" style="width:100%;height:400px;"></div>
+    </body>
 </html>
