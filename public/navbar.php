@@ -9,7 +9,7 @@
     <li class="dropdown">
       <a href="#" class="dropbtn">Projects</a>
       <ul class="dropdown-content">
-        <li><a href="rocketry.php" class="no-padding">Rocketry (ARCS)</a></li>
+        <li><a href="rocketry.php">Rocketry (ARCS)</a></li>
         <li><a href="groundstation.php">GroundStationUI</a></li>
 
         <li><a href="fair2025.php">Materials Study</a></li>
