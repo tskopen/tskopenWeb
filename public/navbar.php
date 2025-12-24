@@ -11,14 +11,14 @@
       <ul class="dropdown-content">
         <li><a href="rocketry.php">Rocketry (ARCS)</a></li>
         <li><a href="groundstation.php">GroundStationUI</a></li>
-        
+
         <li><a href="fair2025.php">Materials Study</a></li>
         <li><a href="websiteproject.php">This Website</a></li>
 
       </ul>
     </li>
 
-    <li class="settings"><a href="settings.php">Settings</a></li>
+    <li class="pushleft"><a href="settings.php">Settings</a></li>
   </ul>
 </nav>
 

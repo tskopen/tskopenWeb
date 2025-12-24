@@ -45,7 +45,7 @@ ul.nav-menu {
   padding: 0;
   background-color: var(--navbar-color);
   display: flex;
-  position: fixed;
+  position: flex;
   top: 0;
   left: 0;
   width: 100%;
