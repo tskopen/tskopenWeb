@@ -89,9 +89,30 @@ document.addEventListener('DOMContentLoaded', () =>
         localStorage.setItem('navbarColor', preset.navbar);
     }
 
-    
+
     const grayThemeBtn = document.getElementById('grayThemeBtn');
     const greenThemeBtn = document.getElementById('greenThemeBtn');
+
+
+
+
+    window.applyGrayTheme = () => applyPreset
+    ({
+        bg: "#D3D3D3",
+        header: "#201A1A",
+        paragraph: "#333333",
+        link: "#000000",
+        navbar: "#4c4c4c"
+    });
+
+    window.applyGreenTheme = () => applyPreset
+    ({
+        bg: "#e8f5e9",
+        header: "#1b5e20",
+        paragraph: "#2e3d30",
+        link: "#2e7d32",
+        navbar: "#1b5e20"
+    });
 
     if (grayThemeBtn) {
         grayThemeBtn.addEventListener('click', window.applyGrayTheme);
@@ -100,21 +121,4 @@ document.addEventListener('DOMContentLoaded', () =>
     if (greenThemeBtn) {
         greenThemeBtn.addEventListener('click', window.applyGreenTheme);
     }
-
-
-    window.applyGrayTheme = () => applyPreset({
-        bg: "#D3D3D3",
-        header: "#201A1A",
-        paragraph: "#333333",
-        link: "#000000",
-        navbar: "#4c4c4c"
-    });
-
-    window.applyGreenTheme = () => applyPreset({
-        bg: "#e8f5e9",
-        header: "#1b5e20",
-        paragraph: "#2e3d30",
-        link: "#2e7d32",
-        navbar: "#1b5e20"
-    });
 });
