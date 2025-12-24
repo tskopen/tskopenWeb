@@ -45,7 +45,7 @@ ul.nav-menu {
   padding: 0;
   background-color: var(--navbar-color);
   display: flex;
-  position: flex;
+  position: fixed;
   top: 0;
   left: 0;
   width: 100%;
@@ -53,8 +53,8 @@ ul.nav-menu {
 
 ul.nav-menu li a {
   display: block; /* flex children should use block */
-  padding: 0px 0px;
-  border-right: 2px solid #d1d1d1;
+  padding: 14px 16px;
+  border-right: 2px solid #bbbbbb;
   color: white;
   text-decoration: none;
 }
@@ -62,11 +62,6 @@ ul.nav-menu li a {
 ul li a:last-child {
   border-right: none;
 }
-
-.nav-menu li.pushleft {
-  margin-left: auto; /* pushes it all the way to the right */
-}
-
 
 .dropdown {
   float: left;
