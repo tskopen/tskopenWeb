@@ -87,10 +87,10 @@ ul li a:last-child {
   display: none;
   position: absolute;
   background-color: var(--navbar-color);
-  min-width: 180px;
+  min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
-  padding: 0px 16px; 
+  padding: 0px 32px; 
   margin: 0; 
 }
 

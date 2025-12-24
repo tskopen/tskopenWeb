@@ -1,6 +1,6 @@
 document.addEventListener('DOMContentLoaded', () => 
 {
-    const tester = document.getElementById('barometerchart');
+    const barometerchart = document.getElementById('barometerchart');
 
     Plotly.newPlot(barometerchart, 
     [{
