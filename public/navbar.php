@@ -5,24 +5,26 @@
   <ul class="nav-menu">
     <li><a href="index.php">Home</a></li>
     <li><a href="resume.php">Resume</a></li>
-  
+
     <li class="dropdown">
-      <button class="dropbtn">Projects</button>
-      <div class="dropdown-content">
-        <a href="rocketry.php">Rocketry (ARCS)</a>
+      <a href="#" class="dropbtn">Projects</a>
+      <ul class="dropdown-content">
+        <li><a href="rocketry.php">Rocketry (ARCS)</a></li>
 
-        <button class="dropbtn">Projects</button>
-        <div class="dropdown-content">
-          <li><a href="groundstation.php">GroundStationUI</a></li>
+        <li class="dropdown">
+          <a href="#" class="dropbtn">Other Projects</a>
+          <ul class="dropdown-content">
+            <li><a href="groundstation.php">GroundStationUI</a></li>
+            <li><a href="fair2025.php">Materials Study</a></li>
+          </ul>
+        </li>
 
-        <a href="fair2025.php">Materials Study</a>
-        <a href="websiteproject.php">This Website</a>
-        
-    <li><a href="settings.php">Settings</a></li>
+        <li><a href="websiteproject.php">This Website</a></li>
 
-
-      </div>
+      </ul>
     </li>
+
+    <li class="pushleft"><a href="settings.php">Settings</a></li>
   </ul>
 </nav>
 
