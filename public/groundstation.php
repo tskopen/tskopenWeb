@@ -5,7 +5,7 @@
         <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
         <title>GroundStationUI</title>
         <script src="https://cdn.plot.ly/plotly-3.3.0.min.js" charset="utf-8"></script>
-        <script src="/js/color-plotly.js?v=<?php echo $version; ?>" defer></script>
+        <script src="/js/plotly.js?v=<?php echo $version; ?>" defer></script>
 
     </head>
 
