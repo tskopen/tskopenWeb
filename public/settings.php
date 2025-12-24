@@ -40,5 +40,15 @@
         <input type="color" id="navbarColor" value="#4c4c4c">
     </div>
 
+    <div>
+        <button type="button" onclick="applyGrayTheme()">
+            Gray Theme Preset
+        </button>
+        å
+        <button type="button" onclick="applyGreenTheme()">
+            Green Theme Preset
+        </button>
+    </div>
+
 </body>
 </html>

@@ -67,4 +67,27 @@ document.addEventListener('DOMContentLoaded', () =>
             localStorage.setItem('navbarColor', e.target.value);
         });
     }
+
+    function applyGrayTheme() 
+    {
+        const preset = 
+        {
+            bg: "#D3D3D3",
+            header: "#201A1A",
+            paragraph: "#333333",
+            link: "#000000",
+            navbar: "#4c4c4c"
+        };
+    }
+    function applyGreenTheme() 
+    {
+        const preset = 
+        {
+        bg: "#e8f5e9",      
+        header: "#1b5e20",   
+        paragraph: "#2e3d30", 
+        link: "#2e7d32",     
+        navbar: "#1b5e20"   
+        };
+    }
 });
