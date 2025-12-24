@@ -58,11 +58,11 @@ document.addEventListener('DOMContentLoaded', () =>
 
     window.applyGreenTheme = () => applyPreset
     ({
-        bg: "#e8f5e9",
-        header: "#1b5e20",
-        paragraph: "#2e3d30",
+        bg: "#c8cfc9ff",
+        header: "#216d26ff",
+        paragraph: "#151e16ff",
         link: "#2e7d32",
-        navbar: "#1b5e20"
+        navbar: "#0e2f10ff"
     });
 
     if (grayThemeBtn) {

@@ -10,10 +10,16 @@
       <button class="dropbtn">Projects</button>
       <div class="dropdown-content">
         <a href="rocketry.php">Rocketry (ARCS)</a>
+
+        <button class="dropbtn">Projects</button>
+        <div class="dropdown-content">
+          <li><a href="groundstation.php">GroundStationUI</a></li>
+
         <a href="fair2025.php">Materials Study</a>
         <a href="websiteproject.php">This Website</a>
         
     <li><a href="settings.php">Settings</a></li>
+
 
       </div>
     </li>
