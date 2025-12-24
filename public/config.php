@@ -1,4 +1,4 @@
 <?php
-$version = "1.04.8"; 
+$version = "1.04.9"; 
 ?>
 <script src="/js/color-picker.js" defer></script>

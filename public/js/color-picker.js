@@ -24,6 +24,49 @@ document.addEventListener('DOMContentLoaded', () =>
     const linkInput = document.getElementById('linkColor');
     const navbarInput = document.getElementById('navbarColor');
 
+    function applyPreset(preset) 
+    {
+        if (bgInput) bgInput.value = preset.bg;
+        if (headerInput) headerInput.value = preset.header;
+        if (paragraphInput) paragraphInput.value = preset.paragraph;
+        if (linkInput) linkInput.value = preset.link;
+        if (navbarInput) navbarInput.value = preset.navbar;
+
+        root.style.setProperty('--primary-color', preset.bg);
+        root.style.setProperty('--header-color', preset.header);
+        root.style.setProperty('--paragraph-color', preset.paragraph);
+        root.style.setProperty('--link-color', preset.link);
+        root.style.setProperty('--navbar-color', preset.navbar);
+    }
+    window.applyGrayTheme = () => applyPreset
+    ({
+        bg: "#D3D3D3",
+        header: "#201A1A",
+        paragraph: "#333333",
+        link: "#000000",
+        navbar: "#4c4c4c"
+    });
+
+    window.applyGreenTheme = () => applyPreset
+    ({
+        bg: "#e8f5e9",
+        header: "#1b5e20",
+        paragraph: "#2e3d30",
+        link: "#2e7d32",
+        navbar: "#1b5e20"
+    });
+
+    if (grayThemeBtn) {
+        grayThemeBtn.addEventListener('click', window.applyGrayTheme);
+    }
+
+    if (greenThemeBtn) {
+        greenThemeBtn.addEventListener('click', window.applyGreenTheme);
+    }
+
+
+
+//Set colors
     if (bgInput) {
         bgInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--primary-color').trim();
         bgInput.addEventListener('input', (e) => 
@@ -70,52 +113,5 @@ document.addEventListener('DOMContentLoaded', () =>
         });
     }
 
-    function applyPreset(preset) 
-    {
-        if (bgInput) bgInput.value = preset.bg;
-        if (headerInput) headerInput.value = preset.header;
-        if (paragraphInput) paragraphInput.value = preset.paragraph;
-        if (linkInput) linkInput.value = preset.link;
-        if (navbarInput) navbarInput.value = preset.navbar;
-
-        root.style.setProperty('--primary-color', preset.bg);
-        root.style.setProperty('--header-color', preset.header);
-        root.style.setProperty('--paragraph-color', preset.paragraph);
-        root.style.setProperty('--link-color', preset.link);
-        root.style.setProperty('--navbar-color', preset.navbar);
-    }
-
-
-
-    const grayThemeBtn = document.getElementById('grayThemeBtn');
-    const greenThemeBtn = document.getElementById('greenThemeBtn');
-
-
-
-
-    window.applyGrayTheme = () => applyPreset
-    ({
-        bg: "#D3D3D3",
-        header: "#201A1A",
-        paragraph: "#333333",
-        link: "#000000",
-        navbar: "#4c4c4c"
-    });
-
-    window.applyGreenTheme = () => applyPreset
-    ({
-        bg: "#e8f5e9",
-        header: "#1b5e20",
-        paragraph: "#2e3d30",
-        link: "#2e7d32",
-        navbar: "#1b5e20"
-    });
-
-    if (grayThemeBtn) {
-        grayThemeBtn.addEventListener('click', window.applyGrayTheme);
-    }
-
-    if (greenThemeBtn) {
-        greenThemeBtn.addEventListener('click', window.applyGreenTheme);
-    }
+   
 });
