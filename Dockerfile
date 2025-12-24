@@ -17,4 +17,7 @@ COPY public /var/www/html
 RUN chmod +x /start.sh \
     && chown -R www-data:www-data /var/www/html
 
+# Expose ports
+EXPOSE 80 443 3000  # 80 for PHP/Nginx, 3000 for Node.js WS
+
 CMD ["/start.sh"]
