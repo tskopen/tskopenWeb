@@ -1,3 +1,5 @@
+console.log("Color-picker is loaded");
+
 document.addEventListener('DOMContentLoaded', () => 
 {
     const root = document.documentElement;
@@ -68,26 +70,21 @@ document.addEventListener('DOMContentLoaded', () =>
         });
     }
 
-    function applyPreset(preset)
+    function applyPreset(preset) 
     {
-        bgInput.value = preset.bg;
-        headerInput.value = preset.header;
-        paragraphInput.value = preset.paragraph;
-        linkInput.value = preset.link;
-        navbarInput.value = preset.navbar;
+        if (bgInput) bgInput.value = preset.bg;
+        if (headerInput) headerInput.value = preset.header;
+        if (paragraphInput) paragraphInput.value = preset.paragraph;
+        if (linkInput) linkInput.value = preset.link;
+        if (navbarInput) navbarInput.value = preset.navbar;
 
         root.style.setProperty('--primary-color', preset.bg);
         root.style.setProperty('--header-color', preset.header);
         root.style.setProperty('--paragraph-color', preset.paragraph);
         root.style.setProperty('--link-color', preset.link);
         root.style.setProperty('--navbar-color', preset.navbar);
-
-        localStorage.setItem('primaryColor', preset.bg);
-        localStorage.setItem('headerColor', preset.header);
-        localStorage.setItem('paragraphColor', preset.paragraph);
-        localStorage.setItem('linkColor', preset.link);
-        localStorage.setItem('navbarColor', preset.navbar);
     }
+
 
 
     const grayThemeBtn = document.getElementById('grayThemeBtn');
