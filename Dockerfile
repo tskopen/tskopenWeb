@@ -1,6 +1,6 @@
 # Use Node.js base image
 # Stage 1
-FROM node:20
+FROM node
 RUN echo "stage1 Node"
 # Create app directory
 WORKDIR /node/
@@ -17,6 +17,11 @@ FROM php:8.2-fpm-alpine
 RUN echo "stage2 PHP"
 # Install nginx
 RUN apk add --no-cache nginx
+
+
+# copy from stage 1
+COPY --from=build-stage /node /var/www/html
+
 
 # Create directories
 RUN mkdir -p /run/nginx
