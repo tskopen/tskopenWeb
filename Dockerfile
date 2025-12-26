@@ -5,6 +5,7 @@ COPY package.json ./
 
 RUN npm install
 
+COPY . .
 
 FROM php:8.2-fpm-alpine
 
@@ -29,4 +30,4 @@ RUN chmod +x /start.sh \
 # Expose ports
 EXPOSE 80 443 3000
 
-CMD ["/start.sh"]
+CMD ["/start.sh", "node", "server.js"]
