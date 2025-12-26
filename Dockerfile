@@ -1,6 +1,6 @@
 # Use Node.js base image
 # Stage 1
-FROM node as node_builder
+FROM node:alpine as node_builder
 RUN echo "stage1 Node"
 
 WORKDIR /app

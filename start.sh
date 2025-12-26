@@ -8,7 +8,6 @@ php-fpm &  # Runs in background
 
 echo "⟳ Starting Node..."
 npm start
-node node/server.js &
 
 echo "⟳ Starting Nginx..."
 nginx -g "daemon off;"  # Runs in foreground to keep container alive
