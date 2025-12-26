@@ -2,7 +2,7 @@
 FROM node:20
 
 # Create app directory
-WORKDIR /node
+WORKDIR /node/
 
 # Install dependencies
 COPY package*.json ./
