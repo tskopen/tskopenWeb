@@ -1,17 +1,20 @@
+FROM node:18-alpine as node
+WORKDIR /js/
+
+COPY package.json ./
+
+RUN npm install
+
+
 FROM php:8.2-fpm-alpine
-From node:18-alpine
+
 
 # Install nginx
-RUN apk add --no-cache nginx
-
-
-WORKDIR /js/
-RUN npm install
+RUN apk add --no-cache nginx supervisor
 
 
 # Create directories
 RUN mkdir -p /run/nginx
-
 
 # Copy configs and site files
 COPY nginx.conf /etc/nginx/nginx.conf
@@ -28,4 +31,3 @@ RUN chmod +x /start.sh \
 EXPOSE 80 443 3000
 
 CMD ["/start.sh"]
-CMD ["node", "server.js"]
