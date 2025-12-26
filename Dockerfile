@@ -1,7 +1,13 @@
 FROM php:8.2-fpm-alpine
+From node:18-alpine
 
 # Install nginx
 RUN apk add --no-cache nginx
+
+
+WORKDIR /app
+RUN npm install
+
 
 # Create directories
 RUN mkdir -p /run/nginx
@@ -21,3 +27,4 @@ RUN chmod +x /start.sh \
 EXPOSE 80 443 3000
 
 CMD ["/start.sh"]
+CMD ["node", "index.js"]
