@@ -1,17 +1,27 @@
-FROM node:18-alpine as node
-WORKDIR /js/
+# Use Node.js base image
+FROM node:20
 
-COPY package.json ./
+# Create app directory
+WORKDIR /js
 
+# Install dependencies
+COPY package*.json ./
 RUN npm install
 
+# Copy the rest of the app
 COPY . .
+
+# Expose port and run
+EXPOSE 3000
+CMD ["node", "server.js"]
+
+
 
 FROM php:8.2-fpm-alpine
 
 
 # Install nginx
-RUN apk add --no-cache nginx supervisor \
+RUN apk add --no-cache nginx
 
 # Create directories
 RUN mkdir -p /run/nginx
