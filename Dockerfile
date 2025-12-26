@@ -1,6 +1,6 @@
 # Use Node.js base image
 # Stage 1
-FROM node as node
+FROM node as node_builder
 RUN echo "stage1 Node"
 # Create app directory
 WORKDIR /node/
@@ -20,7 +20,7 @@ RUN apk add --no-cache nginx
 
 
 # copy from stage 1
-COPY --from=node /node /var/www/html
+COPY --from=node_builder /node /node
 
 
 # Create directories
