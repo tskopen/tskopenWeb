@@ -5,12 +5,13 @@ From node:18-alpine
 RUN apk add --no-cache nginx
 
 
-WORKDIR /app
+WORKDIR /js/
 RUN npm install
 
 
 # Create directories
 RUN mkdir -p /run/nginx
+
 
 # Copy configs and site files
 COPY nginx.conf /etc/nginx/nginx.conf
@@ -27,4 +28,4 @@ RUN chmod +x /start.sh \
 EXPOSE 80 443 3000
 
 CMD ["/start.sh"]
-CMD ["node", "index.js"]
+CMD ["node", "server.js"]
