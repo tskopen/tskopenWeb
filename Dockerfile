@@ -20,7 +20,7 @@ RUN apk add --no-cache nginx
 
 
 # copy from stage 1
-COPY --from=build-stage /node /var/www/html
+COPY --from=node /node /var/www/html
 
 
 # Create directories
