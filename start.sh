@@ -7,6 +7,7 @@ echo "⟳ Starting PHP-FPM..."
 php-fpm &  # Runs in background
 
 echo "⟳ Starting Node..."
+npm start
 node node/server.js &
 
 echo "⟳ Starting Nginx..."

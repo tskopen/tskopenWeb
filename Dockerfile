@@ -2,16 +2,19 @@
 # Stage 1
 FROM node as node_builder
 RUN echo "stage1 Node"
-# Create app directory
-WORKDIR /node/
+
+WORKDIR /app
+
 
 # Install dependencies
 COPY package*.json ./
+
 RUN npm install
 
 # Copy the rest of the app
 COPY . .
 
+EXPOSE 3000
 # Stage 2
 FROM php:8.2-fpm-alpine
 RUN echo "stage2 PHP"
@@ -38,6 +41,6 @@ RUN chmod +x /start.sh \
     && chown -R www-data:www-data /var/www/html
 
 # Expose ports
-EXPOSE 80 443 3000
+EXPOSE 80 443
 
 CMD ["/start.sh"]
