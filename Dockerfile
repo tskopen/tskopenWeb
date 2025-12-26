@@ -11,9 +11,6 @@ FROM php:8.2-fpm-alpine
 
 # Install nginx
 RUN apk add --no-cache nginx supervisor \
-    && apk add --no-cache --virtual .build-deps gcc g++ make \
-    && apk add --no-cache nodejs npm \
-    && apk del .build-deps  # Clean up unnecessary build dependencies
 
 # Create directories
 RUN mkdir -p /run/nginx
