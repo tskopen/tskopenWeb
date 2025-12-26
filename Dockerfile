@@ -1,6 +1,6 @@
 # Use Node.js base image
 # Stage 1
-FROM node
+FROM node as node
 RUN echo "stage1 Node"
 # Create app directory
 WORKDIR /node/
