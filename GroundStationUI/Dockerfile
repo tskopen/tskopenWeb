@@ -1,15 +1,12 @@
 FROM node:alpine
-RUN echo "stage1 Node"
 
 WORKDIR /app
 
-
-COPY package*.json ./app
-
+COPY package*.json ./
 RUN npm install
 
 # Copy the rest of the app
-COPY . ./app
+COPY . .
 
 EXPOSE 3000
 
