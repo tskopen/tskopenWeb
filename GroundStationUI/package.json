@@ -1,6 +1,14 @@
 {
-  "name": "node-tskopen",
+  "name": "nodejs-app",
   "version": "1.0.0",
-  "author": "Thor Kopenkoskey <tskopen@gmail.com> (https://tskopen.com)"
-
-}:
+  "description": "A minimal Node.js web application.",
+  "main": "app.js",
+  "author": "codestorm",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "express": "^5.1.0"
+  },
+  "scripts": {
+    "start": "node app.js"
+  }
+}

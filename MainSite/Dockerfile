@@ -1,22 +1,4 @@
-# Use Node.js base image
-# Stage 1
-FROM node:alpine as node_builder
-RUN echo "stage1 Node"
-
-WORKDIR /app
-
-
-COPY package*.json ./
-
-RUN npm install
-
-# Copy the rest of the app
-COPY . .
-
-EXPOSE 3000
-# Stage 2
 FROM php:8.2-fpm-alpine
-RUN echo "stage2 PHP"
 # Install nginx
 RUN apk add --no-cache nginx
 
