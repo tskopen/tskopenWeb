@@ -3,10 +3,6 @@ FROM php:8.2-fpm-alpine
 RUN apk add --no-cache nginx
 
 
-# copy from stage 1
-COPY --from=node_builder /node /node
-
-
 # Create directories
 RUN mkdir -p /run/nginx
 

@@ -4,12 +4,12 @@ RUN echo "stage1 Node"
 WORKDIR /app
 
 
-COPY package*.json ./
+COPY package*.json ./app
 
 RUN npm install
 
 # Copy the rest of the app
-COPY . .
+COPY . ./app
 
 EXPOSE 3000
 
