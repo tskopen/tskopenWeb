@@ -30,6 +30,37 @@
             
             <div id="barometerchart" style="width:100%;height:400px;"></div>
 
+<div id="log"></div>
+<input id="command" placeholder="Enter command"/>
+<button id="sendBtn">Send</button>
+
+<script>
+const log = document.getElementById('log');
+const ws = new WebSocket('wss://websocket.tskopen.com);
+
+// Connection established
+ws.onopen = () => {
+  log.innerHTML += '<p>Connected to WebSocket server</p>';
+};
+
+// Incoming messages
+ws.onmessage = (event) => {
+  log.innerHTML += `<p>Server says: ${event.data}</p>`;
+};
+
+// Send command to server
+document.getElementById('sendBtn').onclick = () => {
+  const cmd = document.getElementById('command').value;
+  ws.send(JSON.stringify({ type: 'command', data: cmd }));
+};
+</script>
+
+
+
+
+
+
+
         </main>
     </body>
 
