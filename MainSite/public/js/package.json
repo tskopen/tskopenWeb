@@ -1,0 +1,10 @@
+{
+  "name": "node-tskopen",
+  "version": "1.0.1",
+  "main": "server.js",
+  "author": "Thor Kopenkoskey",
+  "scripts": 
+        {
+          "start": "node server.js"
+        }
+}
