@@ -1,7 +1,7 @@
 const WebSocket = require('ws');
 
 // Create a WebSocket server on port 3000
-const wss = new WebSocket.Server({ port: 443 });
+const wss = new WebSocket.Server({ port: 3000 });
 console.log('WebSocket server is running on ws://0.0.0.0:3000');
 
 // Connection event handler

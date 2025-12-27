@@ -30,13 +30,13 @@
             
             <div id="barometerchart" style="width:100%;height:400px;"></div>
 
-<div id="log"></div>
+<div id="log" style="border:1px solid #ccc; padding:10px; height:200px; overflow-y:auto;"></div>
 <input id="command" placeholder="Enter command"/>
 <button id="sendBtn">Send</button>
 
 <script>
 const log = document.getElementById('log');
-const ws = new WebSocket('wss://websocket.tskopen.com);
+const ws = new WebSocket('wss://websocket.tskopen.com');
 
 // Connection established
 ws.onopen = () => {
