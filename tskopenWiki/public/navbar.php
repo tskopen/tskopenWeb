@@ -3,8 +3,8 @@
 
 <nav>
   <ul class="nav-menu">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="tskopen.com">Main Site</a></li>
+    <li><a href="/index.php">Home</a></li>
+    <li><a href="/tskopen.com">Main Site</a></li>
 
     <li class="dropdown">
       <a href="#" class="dropbtn">C++</a>
