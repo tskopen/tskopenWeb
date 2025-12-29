@@ -15,27 +15,22 @@
            <section>
             <h2>Who Am I</h2></h2>
             <p>
-            My name is Thor Kopenkoskey, I am a student at Florida Institute of Technology, and I create engineering projects, rock climb, run, in my free time.
+            My name is Thor Kopenkoskey, I am a student at Florida Institute of Technology.
+            This website acts as a display for my projects and as a resource for projects that require web infastructure.
+            My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
             </p>
-        </section> 
-        <section>
-            <h2>What I do</h2></h2>
-            <ul>
-                <li>
-                    <strong>Research</strong> — Experimental testing, data analysis, and technical writing.
-                </li>
-                <li>
-                    <strong>Engineering</strong> — Hardware systems, materials testing, and applied design. See resume and Projects dropdown for more info.
-                </li>
-                <li>
-                    <strong>Leadership</strong> — Team leadership, project management, and technical instruction. See resume for positions filled.
-                </li>
-            </ul>
-        </section>
-    
+        </section>     
         <section>
             <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>
-    
+                
+            <article>
+                <h3>
+                    Rocketry Flight Computer & Ground Station
+                </h3>
+                <p>
+                    Design of a modular flight computer with GPS, IMU, telemetry, and recovery systems.
+                </p>
+            </article>
             <article>
                 <h3>
                     Carbon Fiber Reinforced Concrete (2025)
@@ -45,16 +40,21 @@
                     under flexural strength testing (ASTM C78–02).
                 </p>
             </article>
-    
             <article>
                 <h3>
-                    Rocketry Flight Computer & Ground Station
+                MIT Beaverworks CubeSat Competition - Awarded Honorable Mention.
                 </h3>
                 <p>
-                    Design of a modular flight computer with GPS, IMU, telemetry, and recovery systems.
+                Team competition with two other friends, Zander Colagno, and Garrison Winters.
+                Competed against 32 other teams. Designed a Cubesat to detect and track wildfires from orbit.
                 </p>
             </article>
+
+
     
+
+
+
         </section>
 
     
@@ -62,6 +62,7 @@
     
     <footer>
         <p>
+            Note this website is under active development and changes often. Please report any errors to tskopen@gmail.com
             © 2025 Thor Kopenkoskey
         </p>
     </footer>
