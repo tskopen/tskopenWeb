@@ -24,7 +24,7 @@
             <div>
                 <h1>Introduction</h1>
                 <p>
-                    I put the groundstation on a webserver for ease of transportation and portability. AKA I dont need a drag a spare monitor places.
+                    UNDER CONSTRUCTION FOR CURRENT PROJECT
                 </p>
             </div>
             

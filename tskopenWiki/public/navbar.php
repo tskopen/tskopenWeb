@@ -1,10 +1,10 @@
 <?php include 'config.php'; ?>
-<link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
+<link rel="stylesheet" href="../styles.css?v=<?php echo $version; ?>">
 
 <nav>
   <ul class="nav-menu">
-    <li><a href="index.php">Home</a></li>
-    <li><a href="resume.php">Resume</a></li>
+    <li><a href="/index.php">Home</a></li>
+    <li><a href="/tskopen.com">Main Site</a></li>
 
     <li class="dropdown">
       <a href="#" class="dropbtn">C++</a>
