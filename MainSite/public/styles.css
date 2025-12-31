@@ -96,7 +96,7 @@ ul.nav-menu li a {
   display: block; /* flex children should use block */
   padding: 14px 16px;
   border-right: 1ch solid var(--color-gray-500);
-  color: var(--primary-color);
+  color: var(--color-gray-600);
   text-decoration: none;
 }
 .nav-menu li.pushleft {
@@ -128,7 +128,7 @@ ul.nav-menu li:last-child a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--primary-color);
+  background-color: var(--color-gray-600);
   min-width: 160px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;

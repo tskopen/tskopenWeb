@@ -8,8 +8,6 @@ document.addEventListener('DOMContentLoaded', () =>
     const primaryInput = document.getElementById('primaryInput');
     const secondaryInput = document.getElementById('secondaryInput');
 
-
-
     // Load saved colors
     const savedPrimary = localStorage.getItem('primaryColor');
     const savedSecondary = localStorage.getItem('secondaryColor');
@@ -31,15 +29,18 @@ const redSecondaryBtn = document.getElementById('redSecondaryBtn');
 
     function applyPreset(preset) 
     {
-        if (primaryInput) {
+        if (primaryInput && preset.primary !== undefined) {
             primaryInput.value = preset.primary;
-            primaryInput.dispatchEvent(new Event('input'));  // triggers your input listener
+            primaryInput.dispatchEvent(new Event('input'));
         }
-        if (secondaryInput) {
+
+        if (secondaryInput && preset.secondary !== undefined) {
             secondaryInput.value = preset.secondary;
-            secondaryInput.dispatchEvent(new Event('input'));  // triggers your input listener
+            secondaryInput.dispatchEvent(new Event('input'));
         }
     }
+
+
     window.applyBluePrimary = () => applyPreset
     ({
         primary: "#003F91",
@@ -105,7 +106,7 @@ const redSecondaryBtn = document.getElementById('redSecondaryBtn');
     }
     if (secondaryInput) 
     {
-        secondaryInput.value = savedPrimary || getComputedStyle(root).getPropertyValue('--secondary-color').trim();
+        secondaryInput.value = savedSecondary || getComputedStyle(root).getPropertyValue('--secondary-color').trim();
         secondaryInput.addEventListener('input', (e) => 
         {
             root.style.setProperty('--secondary-color', e.target.value);
