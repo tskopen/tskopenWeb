@@ -11,16 +11,26 @@
   /* =========================
      NEUTRALS / GRAYS
      ========================= */
-  --color-gray-50:  #FFFFFF;
-  --color-gray-100: #FAFAFA;
-  --color-gray-200: #F0F0F0;
-  --color-gray-300: #E0E0E0;
-  --color-gray-400: #C0C0C0;
-  --color-gray-500: #A0A0A0;
-  --color-gray-600: #808080;
-  --color-gray-700: #606060;
-  --color-gray-800: #404040;
-  --color-gray-900: #202020;
+  --color-gray-50:  #FFFFFF;   /* pure white */
+  --color-gray-100: #F8F8F8;   /* very light */
+  --color-gray-150: #F2F2F2;
+  --color-gray-200: #ECECEC;
+  --color-gray-250: #E6E6E6;
+  --color-gray-300: #DFDFDF;
+  --color-gray-350: #D9D9D9;
+  --color-gray-400: #CFCFCF;
+  --color-gray-450: #C7C7C7;
+  --color-gray-500: #BFBFBF;   /* mid-light gray */
+  --color-gray-550: #B0B0B0;
+  --color-gray-600: #A0A0A0;
+  --color-gray-650: #909090;
+  --color-gray-700: #808080;   /* mid-gray */
+  --color-gray-750: #707070;
+  --color-gray-800: #606060;
+  --color-gray-850: #505050;
+  --color-gray-900: #404040;   /* dark gray */
+  --color-gray-950: #202020;   /* almost black */
+  --color-gray-1000: #000000;  /* pure black */
 
   /* =========================
      FONTS / SPACING
@@ -40,7 +50,7 @@
    ========================= */
 body {
   padding-top: 50px;
-  background-color: var(--color-gray-50);
+  background-color: var(--color-gray-200);
   color: var(--primary-color);
   font-family: sans-serif;
   line-height: 1.5;
@@ -60,7 +70,7 @@ ul.nav-menu {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: var(--color-gray-100);
+  background-color: var(--color-gray-250);
   display: flex;
   position: fixed;
   top: 0;
@@ -98,8 +108,8 @@ ul.nav-menu li:last-child a { border-right: none; }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--color-gray-100);
-  min-width: 120px;
+  background-color: var(--color-gray-250);
+  min-width: 160px;
   box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   z-index: 1;
   padding: 0 16px;
