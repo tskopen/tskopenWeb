@@ -57,9 +57,9 @@ body {
 }
 
 h1 { color: var(--color-gray-900); }
-h2 { color: var(--color-gray-800); }
-h3 { color: var(--color-gray-700); }
-h4 { color: var(--color-gray-600); }
+h2 { color: var(--color-gray-850); }
+h3 { color: var(--color-gray-750); }
+h4 { color: var(--color-gray-650); }
 
 p, li, br { color: var(--primary-color); }
 
@@ -81,7 +81,7 @@ ul.nav-menu {
 ul.nav-menu li a {
   display: block;
   padding: 14px 16px;
-  border-right: 2px solid var(--color-gray-100);
+  border: 2px solid var(--link-color);
   color: var(--link-color);
   text-decoration: none;
   transition: color 0.2s;
@@ -92,7 +92,6 @@ ul.nav-menu li a:hover {
 }
 
 .nav-menu li.pushleft { margin-left: auto; }
-ul.nav-menu li:last-child a { border-right: none; }
 
 /* Dropdown */
 .dropdown { float: left; overflow: hidden; }

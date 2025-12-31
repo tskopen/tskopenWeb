@@ -28,7 +28,6 @@
                 <h2>
                     Rocketry Flight Computer & Ground Station
                 </h2>
-                <img src=icons/engineering.png class="icon">
                 <p>
                     Design of a modular flight computer with GPS, IMU, telemetry, and recovery systems.
                 </p>
@@ -37,7 +36,6 @@
                 <h2>
                     Carbon Fiber Reinforced Concrete (2025)
                 </h2>
-                <img src=icons/engineering.png class="icon">
                 <p>
                     Experimental analysis of carbon fiber reinforcement in sidewalk concrete
                     under flexural strength testing (ASTM C78–02).
@@ -47,7 +45,6 @@
                 <h2>
                 MIT Beaverworks CubeSat Competition - Awarded Honorable Mention. 
                 </h2>
-                <img src=icons/python.png class="icon">
                 <p>
                 Team competition with two other friends, Zander Colagno, and Garrison Winters.
                 Competed against 32 other teams. Designed a Cubesat to detect and track wildfires from orbit.
@@ -57,7 +54,6 @@
                 <h2>
                 Personal Website
                 </h2>
-                <img src=icons/coding-language.png class="icon">
                 <p>
                 Resume and Project demonstration website.
                 Acts as web infastructure for engineering projects. One stop shop for all things Thor Kopenkoskey
