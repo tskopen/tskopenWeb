@@ -176,6 +176,7 @@ ul.nav-menu li:last-child a {
     box-shadow: 0 2px 5px var(--secondary-color); /* optional shadow */
     display: flex;
     flex-direction: column; /* stack content inside the box */
+    position: relative;
 }
 
 .project-box h2 {
