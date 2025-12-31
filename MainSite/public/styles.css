@@ -141,9 +141,20 @@ ul.nav-menu li:last-child a {
 }
 
 .project-container {
-  display: inline-grid;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 1.5rem; /* space between boxes */
+    padding: 1rem;
 }
-
+.project-box {
+    border: 1px solid var(--secondary-color);
+    background-color: var(--color-gray-600);
+    padding: 1rem;
+    border-radius: 8px; /* optional, makes boxes look nicer */
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional shadow */
+    display: flex;
+    flex-direction: column; /* stack content inside the box */
+}
 
 .code-entry {
     border: 1px solid var(--secondary-color);
