@@ -16,7 +16,7 @@
       </ul>
     </li>
 
-    <li class="pushleft"><a href="settings.php">Settings</a></li>
+#<li class="pushleft"><a href="settings.php">Settings</a></li>
   </ul>
 </nav>
 

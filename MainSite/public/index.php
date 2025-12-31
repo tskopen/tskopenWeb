@@ -49,6 +49,17 @@
                 Competed against 32 other teams. Designed a Cubesat to detect and track wildfires from orbit.
                 </p>
             </article>
+            <article class="project-box">
+                <h2>
+                Personal Website
+                </h2>
+                <p>
+                Resume and Project demonstration website.
+                Acts as web infastructure for engineering projects. One stop shop for all things Thor Kopenkoskey
+                </p>
+            </article>
+
+
         </section>
 
 

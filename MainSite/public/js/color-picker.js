@@ -1,3 +1,5 @@
+/* DEPRECATED */
+
 console.log("Color-picker is loaded");
 
 document.addEventListener('DOMContentLoaded', () => {

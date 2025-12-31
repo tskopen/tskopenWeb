@@ -4,8 +4,8 @@
 
 
 /* Primary Colors  https://coolors.co/931621-2c5f34-d3d3d3-040404-003f91 */
-  --primary-color: #003F91;   /* Hunter Green */
-  --secondary-color: #2C5F34;     /* French Blue */
+  --primary-color: #3B82F6;   /* Hunter Green */
+  --secondary-color: #38BDF8;     /* French Blue */
 /* --color-third: #931621;  Deep Crimson */
 
 
@@ -42,27 +42,27 @@ body
 
 h1 
 {
-  color: var(--color-gray-900);
+  color: var(--color-gray-300);
 }
 
 h2
 {
-  color: var(--color-gray-800);
+  color: var(--color-gray-400);
 }
 
 h3 
 {
-  color: var(--color-gray-700);
+  color: var(--color-gray-500);
 }
 
 h4 
 {
-  color: var(--color-gray-500);
+  color: var(--color-gray-600);
 }
 
 p 
 {
-  color: var(--color-gray-900);
+  color: var(--color-gray-200);
 }
 
 
@@ -80,7 +80,7 @@ ul.nav-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-800);
   display: flex;
   position: fixed;
   top: 0;
@@ -91,7 +91,7 @@ ul.nav-menu {
 ul.nav-menu li a {
   display: block; /* flex children should use block */
   padding: 14px 16px;
-  border-right: 2px solid var(--color-gray-500);
+  border-right: 2px solid var(--color-gray-800);
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -122,7 +122,7 @@ ul.nav-menu li:last-child a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--color-gray-500);
+  background-color: var(--color-gray-800);
   min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
@@ -151,7 +151,7 @@ ul.nav-menu li:last-child a {
 }
 .project-box {
     border: 2px solid var(--secondary-color);
-    background-color: var(--color-gray-500);
+    background-color: var(--color-gray-600);
     padding: 1rem;
     border-radius: 8px; /* optional, makes boxes look nicer */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional shadow */
