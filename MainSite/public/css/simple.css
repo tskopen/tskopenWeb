@@ -1,37 +1,30 @@
-/* =========================
-   THEME VARIABLES
-   ========================= */
 
 :root {
-  --link-color: #000000;
-  --download-color: #888888;
+  /* =========================
+     PRIMARY / ACCENT COLORS
+     ========================= */
+  --primary-color: #202020;      /* main text dark gray */
+  --secondary-color: #505050;    /* subtle accent for borders/shadows */
+  --link-color: #0066CC;         /* readable blue links */
+  --download-color: #FF6600;     /* accent orange for buttons */
 
-  /* Primary Colors muted */
-  --primary-color: #555555;
-  --secondary-color: #777777;
-
-  /* Neutral / Grayscale simplified */
+  /* =========================
+     NEUTRALS / GRAYS
+     ========================= */
   --color-gray-50:  #FFFFFF;
-  --color-gray-100: #F0F0F0;
-  --color-gray-150: #E0E0E0;
-  --color-gray-200: #D0D0D0;
-  --color-gray-250: #C0C0C0;
-  --color-gray-300: #B0B0B0;
-  --color-gray-350: #A0A0A0;
-  --color-gray-400: #909090;
-  --color-gray-450: #808080;
-  --color-gray-500: #707070;
-  --color-gray-550: #606060;
-  --color-gray-600: #505050;
-  --color-gray-650: #404040;
-  --color-gray-700: #303030;
-  --color-gray-750: #202020;
-  --color-gray-800: #101010;
-  --color-gray-850: #0A0A0A;
-  --color-gray-900: #000000;
-  --color-gray-950: #000000;
+  --color-gray-100: #FAFAFA;
+  --color-gray-200: #F0F0F0;
+  --color-gray-300: #E0E0E0;
+  --color-gray-400: #C0C0C0;
+  --color-gray-500: #A0A0A0;
+  --color-gray-600: #808080;
+  --color-gray-700: #606060;
+  --color-gray-800: #404040;
+  --color-gray-900: #202020;
 
-  /* Fonts / Spacing (same as fancy) */
+  /* =========================
+     FONTS / SPACING
+     ========================= */
   font-size: 20px;
   --margin-xxs: 0.25rem;
   --margin-xs: 0.5rem;
@@ -43,22 +36,22 @@
 }
 
 /* =========================
-   GLOBAL STYLES (APPLY VARIABLES)
+   GLOBAL STYLES
    ========================= */
 body {
   padding-top: 50px;
-  background-color: var(--color-gray-850);
-  color: var(--color-gray-200);
+  background-color: var(--color-gray-50);
+  color: var(--primary-color);
   font-family: sans-serif;
   line-height: 1.5;
 }
 
-h1 { color: var(--color-gray-300); }
-h2 { color: var(--color-gray-400); }
-h3 { color: var(--color-gray-500); }
+h1 { color: var(--color-gray-900); }
+h2 { color: var(--color-gray-800); }
+h3 { color: var(--color-gray-700); }
 h4 { color: var(--color-gray-600); }
 
-p, li, br { color: var(--color-gray-200); }
+p, li, br { color: var(--primary-color); }
 
 /* =========================
    LINKS / NAVIGATION
@@ -67,7 +60,7 @@ ul.nav-menu {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: var(--color-gray-800);
+  background-color: var(--color-gray-100);
   display: flex;
   position: fixed;
   top: 0;
@@ -78,9 +71,14 @@ ul.nav-menu {
 ul.nav-menu li a {
   display: block;
   padding: 14px 16px;
-  border-right: 2px solid var(--color-gray-800);
-  color: var(--primary-color);
+  border-right: 2px solid var(--color-gray-100);
+  color: var(--link-color);
   text-decoration: none;
+  transition: color 0.2s;
+}
+
+ul.nav-menu li a:hover {
+  color: var(--download-color);
 }
 
 .nav-menu li.pushleft { margin-left: auto; }
@@ -91,7 +89,7 @@ ul.nav-menu li:last-child a { border-right: none; }
 .dropdown .dropbtn {
   border: none;
   outline: none;
-  color: var(--primary-color);
+  color: var(--link-color);
   padding: 14px 16px;
   background-color: inherit;
   font-family: inherit;
@@ -100,11 +98,11 @@ ul.nav-menu li:last-child a { border-right: none; }
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: var(--color-gray-800);
+  background-color: var(--color-gray-100);
   min-width: 120px;
-  box-shadow: 0px 8px 16px rgba(0,0,0,0.2);
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
   z-index: 1;
-  padding: 0 32px;
+  padding: 0 16px;
 }
 .dropdown:hover .dropdown-content { display: block; }
 
@@ -121,11 +119,11 @@ ul.nav-menu li:last-child a { border-right: none; }
 }
 
 .project-box {
-  border: 1px solid var(--primary-color);
-  background-color: var(--color-gray-600);
+  border: 1px solid var(--color-gray-300);
+  background-color: var(--color-gray-50);
   padding: 1rem;
   border-radius: 8px;
-  box-shadow: 0 2px 5px var(--secondary-color);
+  box-shadow: 0 2px 5px var(--color-gray-200);
   display: flex;
   flex-direction: column;
   position: relative;
@@ -135,14 +133,14 @@ ul.nav-menu li:last-child a { border-right: none; }
   font-size: 1.25rem;
   font-weight: 600;
   margin-bottom: 0.5rem;
-  color: var(--color-gray-100);
+  color: var(--color-gray-900);
 }
 
 .project-box p {
   font-size: 1rem;
   line-height: 1.5;
   margin: 0;
-  color: var(--color-gray-200);
+  color: var(--primary-color);
 }
 
 .project-box .icon {
@@ -157,19 +155,21 @@ ul.nav-menu li:last-child a { border-right: none; }
    CODE / DOWNLOAD BUTTONS
    ========================= */
 .code-entry {
-  border: 1px solid var(--secondary-color);
+  border: 1px solid var(--color-gray-300);
   border-radius: 6px;
-  background-color: var(--color-gray-200);
+  background-color: var(--color-gray-100);
   padding: 1rem;
   margin-bottom: 1.5rem;
+  color: var(--primary-color);
 }
 
 .downloadBtn {
   display: block;
   text-decoration: none;
   padding: 12px 16px;
-  color: black;
+  color: var(--link-color);
   text-align: left;
+  transition: color 0.2s;
 }
 
 .downloadBtn:hover {
