@@ -13,7 +13,7 @@
         <header>
             <h1>Active Rocketry Control System &ndash; ARCS</h1>
             <div class="subtitle">
-                Exploration of embedded systems and programming, and PCB development.
+                <h2>Exploration of embedded systems and programming, and PCB development. </h2>
             </div>
         </header>
 

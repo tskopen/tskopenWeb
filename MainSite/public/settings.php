@@ -16,37 +16,20 @@
         <h1><strong>Customize Site Colors!</strong></h1>
         <p>Below you can select different colors for the website. Changes will apply to all pages.</p>
 
-        <div class="color-picker">
-            <label for="bgColor">Background:</label>
-            <input type="color" id="bgColor" value="#D3D3D3">
+        <div class="preset-group">
+            <h3>Primary Actions</h3>
+            <button id="bluePrimaryBtn">Blue</button>
+            <button id="greenPrimaryBtn">Green</button>
+            <button id="redPrimaryBtn">Red</button>
         </div>
 
-        <div class="color-picker">
-            <label for="headerColor">Header:</label>
-            <input type="color" id="headerColor" value="#201A1A">
+        <div class="preset-group">
+            <h3>Secondary Actions</h3>
+            <button id="blueSecondaryBtn">Blue</button>
+            <button id="greenSecondaryBtn">Green</button>
+            <button id="redSecondaryBtn">Red</button>
         </div>
 
-        <div class="color-picker">
-            <label for="paragraphColor">Paragraph:</label>
-            <input type="color" id="paragraphColor" value="#333333">
-        </div>
-
-        <div class="color-picker">
-            <label for="linkColor">Links:</label>
-            <input type="color" id="linkColor" value="#000000">
-        </div>
-
-        <div class="color-picker">
-            <label for="navbarColor">Navbar:</label>
-            <input type="color" id="navbarColor" value="#4c4c4c">
-        </div>
-
-            <button id="grayThemeBtn">Gray</button>
-                Gray Theme Preset
-            </button>
-            <button id="greenThemeBtn">Green</button>
-                Green Theme Preset
-            </button>
 
     </body>
 </html>
