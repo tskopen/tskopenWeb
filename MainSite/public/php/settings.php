@@ -4,7 +4,6 @@
 
     <head>
         <?php include 'config.php'; ?>
-        <link rel="stylesheet" href="styles.css?v=<?php echo $version; ?>">
         <title>Settings</title>
         
     </head>
