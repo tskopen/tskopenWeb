@@ -10,7 +10,6 @@
 
 
 /* Neutral / Grayscale */
-:root {
     --color-gray-50:  #FAFAFA; /* ultra-light gray */
     --color-gray-100: #FFFFFF; /* pure white */
     --color-gray-150: #F7F7F7;
@@ -30,7 +29,7 @@
     --color-gray-850: #1F1F1F; /* extra very dark gray */
     --color-gray-900: #000000; /* pure black */
     --color-gray-950: #0A0A0A; /* near-black for subtle contrast */
-}
+
 
 
 
