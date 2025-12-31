@@ -141,10 +141,13 @@ ul.nav-menu li:last-child a {
 }
 
 .project-container {
-    display: grid;
-    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    display: grid; /* turn the container into a grid */
+    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    /* each column is at least 300px, but grows to fill space */
     gap: 1.5rem; /* space between boxes */
-    padding: 1rem;
+    max-width: 1200px;
+    margin: auto;
+    padding: 2rem;
 }
 .project-box {
     border: 1px solid var(--secondary-color);
