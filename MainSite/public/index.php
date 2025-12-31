@@ -18,6 +18,7 @@
             My name is Thor Kopenkoskey, I am a student at Florida Institute of Technology.
             This website acts as a display for my projects and as a resource for projects that require web infastructure.
             My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
+            This website is under active construction as of December 20th 2025.
             </p>
         </section>     
             <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>

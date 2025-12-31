@@ -12,7 +12,7 @@
         <header>
             <h1>Carbon Fiber’s Use in Sidewalk Concrete for Anti-Degradation Purposes and Analysis of Flexural Strength Testing (Modulus of Rupture)</h1>
             <div class="subtitle">
-                2025 Research Project
+                <p>2025 Research Project</p>
             </div>
         </header>
     

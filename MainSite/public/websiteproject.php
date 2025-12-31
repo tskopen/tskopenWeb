@@ -14,7 +14,7 @@
     <header>
         <h1>Creating my own website</h1>
         <div class="subtitle">
-            Here's a review of my design considerations. I decided not to include everything I did because the website itself speaks to that. I did not use a template.
+            <p> Here's a review of my design considerations. I decided not to include everything I did because the website itself speaks to that. I did not use a template. </p>
         </div>
     </header>
 
