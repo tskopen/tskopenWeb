@@ -25,6 +25,7 @@
 
         <section class="project-container">
             <article class="project-box">
+                <a href="/php/rocketry.php"></a>
                 <h2>
                     Rocketry Flight Computer & Ground Station
                 </h2>
@@ -33,6 +34,7 @@
                 </p>
             </article>
             <article class="project-box">
+                <a href="/php/fair2025.php"></a>
                 <h2>
                     Carbon Fiber Reinforced Concrete (2025)
                 </h2>
@@ -52,6 +54,7 @@
             </article>
             <article class="project-box">
                 <h2>
+                <a href="/php/websiteproject.php"></a>
                 Personal Website
                 </h2>
                 <p>
