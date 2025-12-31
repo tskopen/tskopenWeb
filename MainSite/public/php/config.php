@@ -1,5 +1,4 @@
 <?php
-$version = "1.08"; 
+$version = "1.08.01"; 
 ?>
-<script src="/js/theme.js?v=<?php echo $version; ?>" defer></script>
-<link id="theme-link" rel="stylesheet" href="/styles/simple.css?v=<?php echo $version; ?>">
+<link rel="stylesheet" href="/css/simple.css?v=<?php echo $version; ?>">
