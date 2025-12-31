@@ -80,7 +80,7 @@ ul.nav-menu {
   list-style-type: none;
   margin: 0;
   padding: 0;
-  background-color: var(--color-gray-600);
+  background-color: var(--color-gray-400);
   display: flex;
   position: fixed;
   top: 0;
@@ -91,7 +91,7 @@ ul.nav-menu {
 ul.nav-menu li a {
   display: block; /* flex children should use block */
   padding: 14px 16px;
-  border-right: 2px solid var(--color-gray-600);
+  border-right: 2px solid var(--color-gray-400);
   color: var(--primary-color);
   text-decoration: none;
 }
@@ -122,8 +122,8 @@ ul.nav-menu li:last-child a {
 .dropdown-content {
   display: none;
   position: absolute;
-  background-color: inherit;
-  min-width: 160px;
+  background-color: var(--color-gray-400);
+  min-width: 120px;
   box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
   z-index: 1;
   padding: 0px 32px; 
