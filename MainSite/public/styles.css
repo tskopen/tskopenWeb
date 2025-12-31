@@ -161,7 +161,7 @@ ul.nav-menu li:last-child a {
 
 .project-container {
     display: grid; /* turn the container into a grid */
-    grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
+    grid-template-columns: auto auto auto; 
     /* each column is at least 300px, but grows to fill space */
     gap: 1.5rem; /* space between boxes */
     max-width: 800px;
@@ -169,7 +169,7 @@ ul.nav-menu li:last-child a {
     padding: 2rem;
 }
 .project-box {
-    border: 1 solid var(--primary-color);
+    border: 1px solid var(--primary-color);
     background-color: var(--color-gray-600);
     padding: 1rem;
     border-radius: 8px; /* optional, makes boxes look nicer */
@@ -215,4 +215,12 @@ ul.nav-menu li:last-child a {
 .downloadBtn:hover .downloadBtn {
   display: block;
   color: var(--download-color);
+}
+.project-box .icon {
+  width: 1.25rem;
+  height: 1.25rem;
+
+  position: absolute;
+  top: 0;
+  right: 0;
 }
