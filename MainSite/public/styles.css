@@ -218,8 +218,8 @@ ul.nav-menu li:last-child a {
   color: var(--download-color);
 }
 .project-box .icon {
-  width: 1.25rem;
-  height: 1.25rem;
+  width: 2.5rem;
+  height: 2.5rem;
 
   position: absolute;
   top: 0;
