@@ -3,7 +3,7 @@
     <head>
         <?php include 'config.php'; ?>
 
-        <title>V1.02</title>
+        <title>Fair</title>
         
     </head>
     <?php include "navbar.php"; ?>
