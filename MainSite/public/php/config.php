@@ -1,4 +1,4 @@
 <?php
-$version = "1.08.9"; 
+$version = "1.08.10"; 
 ?>
 <link rel="stylesheet" href="/css/simple.css?v=<?php echo $version; ?>">

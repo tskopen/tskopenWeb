@@ -153,12 +153,22 @@ ul.nav-menu li a:hover {
   color: var(--primary-color);
 }
 
-.project-box .icon {
-  width: 2.5rem;
-  height: 2.5rem;
-  position: absolute;
-  top: 0;
-  right: 0;
+
+/* For project boxes inside links */
+.project-container a .project-box:hover {
+    color: var(--primary-action-color); /* your orange */
+    text-decoration: none; /* remove underline if any */
+}
+
+/* Optional: cursor change to indicate clickable */
+.project-container a .project-box:hover {
+    cursor: pointer;
+}
+
+/* If you want the text inside to also change color */
+.project-container a .project-box:hover h2,
+.project-container a .project-box:hover p {
+    color: var(--primary-action-color);
 }
 
 /* =========================
