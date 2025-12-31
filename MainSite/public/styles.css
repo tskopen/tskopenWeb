@@ -1,27 +1,69 @@
 :root {
-  --primary-color: #D3D3D3;
-  --header-color: #201A1A;
-  --paragraph-color: #333333;
+  --background-color: #D3D3D3;
   --link-color: #000000;
   --navbar-color: #4c4c4c;
   --download-color: #DEDEDE;
+
+
+/* Primary Colors */
+  --color-primary: #003F91;     /* French Blue */
+  --color-secondary: #2C5F34;   /* Hunter Green */
+  --color-third: #931621; /* Deep Crimson */
+
+
+/* Neutral / Grayscale */
+  --color-gray-100: #F3F4F6;
+  --color-gray-200: #E5E7EB;
+  --color-gray-300: #D1D5DB;
+  --color-gray-400: #9CA3AF;
+  --color-gray-500: #6B7280;
+  --color-gray-600: #4B5563;
+  --color-gray-700: #374151;
+  --color-gray-800: #1F2937;
+  --color-gray-900: #111827;
+
+
+/*Font Settings*/
+  font-size: 20px;
+  --margin-xxs: 0.25rem;
+  --margin-xs: 0.5rem;
+  --margin-s: 0.75rem;
+  --margin-m: 1rem;
+  --margin-l: 1.25rem;
+  --margin-xl: 1.75rem;
+  --margin-xxl: 2.5rem;
 }
 
 
 body 
 {
   padding-top: 50px;
-  background-color: var(--primary-color);
+  background-color: var(--background-color);
 }
 
 h1 
 {
-  color: var(--header-color);
+  color: var(--color-gray-900);
+}
+
+h2
+{
+  color: var(--color-gray-800);
+}
+
+h3 
+{
+  color: var(--color-gray-700);
+}
+
+h4 
+{
+  color: var(--color-gray-500);
 }
 
 p 
 {
-  color: var(--paragraph-color);
+  color: var(--color-gray-900);
 }
 
 a
@@ -114,16 +156,9 @@ ul li a:last-child {
 }
 
 .code-entry {
-    border-left: 4px solid #2a7cda;
+    border: 4px;
     padding-left: 1rem;
     margin-bottom: 1.5rem;
-}
-
-pre {
-    background: #1e1e1e;
-    color: #dcdcdc;
-    padding: 1rem;
-    overflow-x: auto;
 }
 
 .downloadBtn {
