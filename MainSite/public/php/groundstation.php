@@ -7,7 +7,6 @@
         <script src="/js/plotly.js?v=<?php echo $version; ?>" defer></script>
 
     </head>
-
     <?php include "navbar.php"; ?>
 
 
