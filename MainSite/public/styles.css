@@ -164,7 +164,7 @@ ul.nav-menu li:last-child a {
     grid-template-columns: auto auto auto; 
     /* each column is at least 300px, but grows to fill space */
     gap: 1.5rem; /* space between boxes */
-    max-width: 800px;
+    max-width: 2000px;
     margin: auto;
     padding: 2rem;
 }
