@@ -1,39 +1,26 @@
-/* DEPRECATED */
-
-console.log("Color-picker is loaded");
+console.log("Theme toggle loaded");
 
 document.addEventListener('DOMContentLoaded', () => {
-    const root = document.documentElement;
+  const root = document.documentElement;
+  const body = document.body;
+  const toggleBtn = document.getElementById('fancyBtn');
 
-    // Load saved colors
-    const savedPrimary = localStorage.getItem('primaryColor');
-    const savedSecondary = localStorage.getItem('secondaryColor');
+  // Load saved theme from localStorage
+  let currentTheme = localStorage.getItem('theme') || 'fancy';
+  body.classList.add(currentTheme);
 
-    if (savedPrimary) root.style.setProperty('--primary-color', savedPrimary);
-    if (savedSecondary) root.style.setProperty('--secondary-color', savedSecondary);
-
-    // Map buttons to their colors
-    const colorPresets = [
-        { id: 'bluePrimaryBtn', type: 'primary', color: '#003F91' },
-        { id: 'greenPrimaryBtn', type: 'primary', color: '#2C5F34' },
-        { id: 'redPrimaryBtn', type: 'primary', color: '#931621' },
-        { id: 'blueSecondaryBtn', type: 'secondary', color: '#003F91' },
-        { id: 'greenSecondaryBtn', type: 'secondary', color: '#2C5F34' },
-        { id: 'redSecondaryBtn', type: 'secondary', color: '#931621' },
-    ];
-
-    // Apply color preset function
-    function applyPreset(type, color) {
-        const cssVar = type === 'primary' ? '--primary-color' : '--secondary-color';
-        root.style.setProperty(cssVar, color);
-        localStorage.setItem(type + 'Color', color);
+  // Toggle function
+  function toggleTheme() {
+    if (body.classList.contains('fancy')) {
+      body.classList.remove('fancy');
+      body.classList.add('simple');
+      localStorage.setItem('theme', 'simple');
+    } else {
+      body.classList.remove('simple');
+      body.classList.add('fancy');
+      localStorage.setItem('theme', 'fancy');
     }
+  }
 
-    // Attach event listeners
-    colorPresets.forEach(preset => {
-        const btn = document.getElementById(preset.id);
-        if (btn) {
-            btn.addEventListener('click', () => applyPreset(preset.type, preset.color));
-        }
-    });
+  toggleBtn.addEventListener('click', toggleTheme);
 });

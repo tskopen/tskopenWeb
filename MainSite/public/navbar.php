@@ -16,7 +16,7 @@
       </ul>
     </li>
 
-#<li class="pushleft"><a href="settings.php">Settings</a></li>
+<li class="pushleft"><button id="fancyBtn">Toggle Fancy</button></li>
   </ul>
 </nav>
 
