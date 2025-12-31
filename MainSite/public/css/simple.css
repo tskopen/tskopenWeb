@@ -1,0 +1,200 @@
+
+:root {
+  /* =========================
+     PRIMARY / ACCENT COLORS
+     ========================= */
+  --primary-color: #202020;      /* main text dark gray */
+  --secondary-color: #505050;    /* subtle accent for borders/shadows */
+  --primary-action-color: #FF6600;         /* readable blue links */
+  --secondary-action-color: #0066CC;     /* accent orange for buttons */
+
+  /* =========================
+     NEUTRALS / GRAYS
+     ========================= */
+  --color-gray-50:  #FFFFFF;   /* pure white */
+  --color-gray-100: #F8F8F8;   /* very light */
+  --color-gray-150: #F2F2F2;
+  --color-gray-200: #ECECEC;
+  --color-gray-250: #E6E6E6;
+  --color-gray-300: #DFDFDF;
+  --color-gray-350: #D9D9D9;
+  --color-gray-400: #CFCFCF;
+  --color-gray-450: #C7C7C7;
+  --color-gray-500: #BFBFBF;   /* mid-light gray */
+  --color-gray-550: #B0B0B0;
+  --color-gray-600: #A0A0A0;
+  --color-gray-650: #909090;
+  --color-gray-700: #808080;   /* mid-gray */
+  --color-gray-750: #707070;
+  --color-gray-800: #606060;
+  --color-gray-850: #505050;
+  --color-gray-900: #404040;   /* dark gray */
+  --color-gray-950: #202020;   /* almost black */
+  --color-gray-1000: #000000;  /* pure black */
+
+  /* =========================
+     FONTS / SPACING
+     ========================= */
+  font-size: 16px;
+  --margin-xxs: 0.25rem;
+  --margin-xs: 0.5rem;
+  --margin-s: 0.75rem;
+  --margin-m: 1rem;
+  --margin-l: 1.25rem;
+  --margin-xl: 1.75rem;
+  --margin-xxl: 2.5rem;
+}
+
+/* =========================
+   GLOBAL STYLES
+   ========================= */
+body {
+  padding-top: 50px;
+  background-color: var(--color-gray-200);
+  color: var(--primary-color);
+  font-family: sans-serif;
+  line-height: 1.5;
+}
+
+h1 { color: var(--color-gray-950); }
+h2 { color: var(--color-gray-900); }
+h3 { color: var(--color-gray-800); }
+h4 { color: var(--color-gray-700); }
+
+p, li, br { color: var(--primary-color); }
+
+/* =========================
+   LINKS / NAVIGATION
+   ========================= */
+ul.nav-menu {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+  background-color: var(--color-gray-300);
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+}
+
+ul.nav-menu li a {
+  display: block;
+  padding: 14px 16px;
+  color: var(--link-color);
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+ul.nav-menu li a:hover {
+  color: var(--primary-action-color);
+  border: 1px solid var(--primary-action-color);
+
+}
+
+.nav-menu li.pushleft { margin-left: auto; }
+
+/* Dropdown */
+.dropdown { float: left; overflow: hidden; }
+.dropdown .dropbtn {
+  border: none;
+  outline: none;
+  color: var(--secondary-action-color);
+  padding: 14px 16px;
+  background-color: inherit;
+  font-family: inherit;
+  margin: 0;
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: var(--color-gray-250);
+  min-width: 160px;
+  box-shadow: 0px 4px 8px rgba(0,0,0,0.1);
+  z-index: 1;
+  padding: 0 16px;
+}
+.dropdown:hover .dropdown-content { display: block; }
+
+/* =========================
+   PROJECT / GRID
+   ========================= */
+.project-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 1.5rem;
+  max-width: 2000px;
+  margin: auto;
+  padding: 2rem;
+}
+
+.project-box {
+  border: 1px solid var(--color-gray-300);
+  background-color: var(--color-gray-50);
+  padding: 1rem;
+  border-radius: 8px;
+  box-shadow: 0 2px 5px var(--color-gray-200);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+
+.project-box h2 {
+  font-size: 1.25rem;
+  font-weight: 600;
+  margin-bottom: 0.5rem;
+  color: var(--secondary-action-color);
+}
+
+.project-box p {
+  font-size: 1rem;
+  line-height: 1.5;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.project-container a {
+    text-decoration: none;
+    color: inherit; /* inherit color from child, or set a default */
+}
+/* For project boxes inside links */
+.project-container a .project-box:hover {
+    color: var(--primary-action-color); /* your orange */
+    text-decoration: none; /* remove underline if any */
+}
+
+/* Optional: cursor change to indicate clickable */
+.project-container a .project-box:hover {
+    cursor: pointer;
+}
+
+/* If you want the text inside to also change color */
+.project-container a .project-box:hover h2,
+.project-container a .project-box:hover p {
+    color: var(--primary-action-color);
+}
+
+/* =========================
+   CODE / DOWNLOAD BUTTONS
+   ========================= */
+.code-entry {
+  border: 1px solid var(--color-gray-300);
+  border-radius: 6px;
+  background-color: var(--color-gray-100);
+  padding: 1rem;
+  margin-bottom: 1.5rem;
+  color: var(--primary-color);
+}
+
+.downloadBtn {
+  display: block;
+  text-decoration: none;
+  padding: 12px 16px;
+  color: var(--primary-action-color);
+  text-align: left;
+  transition: color 0.2s;
+}
+
+.downloadBtn:hover {
+  color: var(--primary-action-color);
+}
