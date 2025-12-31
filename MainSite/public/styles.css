@@ -140,6 +140,11 @@ ul.nav-menu li:last-child a {
     padding: 2rem;
 }
 
+.project-container {
+  display: inline-grid;
+}
+
+
 .code-entry {
     border: 1px solid var(--secondary-color);
     border-radius: 6px;

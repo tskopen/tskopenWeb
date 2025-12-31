@@ -20,7 +20,8 @@
             My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
             </p>
         </section>     
-        <section>
+
+        <section class="container-project">>
             <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>
                 
             <article>
@@ -49,13 +50,11 @@
                 Competed against 32 other teams. Designed a Cubesat to detect and track wildfires from orbit.
                 </p>
             </article>
+        </section>
 
 
     
 
-
-
-        </section>
 
     
     </main>
