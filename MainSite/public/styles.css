@@ -37,7 +37,7 @@
 body 
 {
   padding-top: 50px;
-  background-color: var(--color-gray-300);
+  background-color: var(--color-gray-800);
 }
 
 h1 
@@ -64,8 +64,10 @@ p
 {
   color: var(--color-gray-200);
 }
-
-
+br
+{
+  color: var(--color-gray-200);
+}
 ul {
   display: block;
   list-style-type: disc;
@@ -74,6 +76,7 @@ ul {
   margin-left: 0;
   margin-right: 0;
   padding-left: 40px;
+  color: var(--color-gray-800);
 } 
 
 ul.nav-menu {
