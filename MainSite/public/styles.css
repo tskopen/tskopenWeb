@@ -169,11 +169,11 @@ ul.nav-menu li:last-child a {
     padding: 2rem;
 }
 .project-box {
-    border: 2px solid var(--secondary-color);
+    border: 1 solid var(--primary-color);
     background-color: var(--color-gray-600);
     padding: 1rem;
     border-radius: 8px; /* optional, makes boxes look nicer */
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional shadow */
+    box-shadow: 0 2px 5px var(--secondary-color); /* optional shadow */
     display: flex;
     flex-direction: column; /* stack content inside the box */
 }
