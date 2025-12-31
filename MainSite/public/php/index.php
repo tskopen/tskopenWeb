@@ -24,8 +24,8 @@
             <h2>Featured Projects</h2>
 
         <section class="project-container">
+        <a href="/php/rocketry.php">
             <article class="project-box">
-                <a href="/php/rocketry.php"></a>
                 <h2>
                     Rocketry Flight Computer & Ground Station
                 </h2>
@@ -33,16 +33,19 @@
                     Design of a modular flight computer with GPS, IMU, telemetry, and recovery systems.
                 </p>
             </article>
-            <article class="project-box">
-                <a href="/php/fair2025.php"></a>
-                <h2>
-                    Carbon Fiber Reinforced Concrete (2025)
-                </h2>
-                <p>
-                    Experimental analysis of carbon fiber reinforcement in sidewalk concrete
-                    under flexural strength testing (ASTM C78–02).
-                </p>
-            </article>
+        </a>
+            <a href="/php/fair2025.php">
+                <article class="project-box">
+                    <h2>
+                        Carbon Fiber Reinforced Concrete (2025)
+                    </h2>
+                    <p>
+                        Experimental analysis of carbon fiber reinforcement in sidewalk concrete
+                        under flexural strength testing (ASTM C78–02).
+                    </p>
+                </article>
+            </a>
+
             <article class="project-box">
                 <h2>
                 MIT Beaverworks CubeSat Competition - Awarded Honorable Mention. 
@@ -52,17 +55,18 @@
                 Competed against 32 other teams. Designed a Cubesat to detect and track wildfires from orbit.
                 </p>
             </article>
-            <article class="project-box">
-                <h2>
-                <a href="/php/websiteproject.php"></a>
-                Personal Website
-                </h2>
-                <p>
-                Resume and Project demonstration website.
-                Acts as web infastructure for engineering projects. One stop shop for all things Thor Kopenkoskey
-                </p>
-            </article>
 
+            <a href="/php/websiteproject.php">
+                <article class="project-box">
+                    <h2>
+                    Personal Website
+                    </h2>
+                    <p>
+                    Resume and Project demonstration website.
+                    Acts as web infastructure for engineering projects. One stop shop for all things Thor Kopenkoskey
+                    </p>
+                </article>
+            </a>
 
         </section>
 
