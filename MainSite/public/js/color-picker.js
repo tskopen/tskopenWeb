@@ -4,12 +4,18 @@ document.addEventListener('DOMContentLoaded', () =>
 {
     const root = document.documentElement;
 
+
+    const primaryInput = document.getElementById('primaryInput');
+    const secondaryInput = document.getElementById('secondaryInput');
+
+
+
     // Load saved colors
     const savedPrimary = localStorage.getItem('primaryColor');
     const savedSecondary = localStorage.getItem('secondaryColor');
 
     if (savedPrimary) root.style.setProperty('--primary-color', savedPrimary);
-    if (savedPrimary) root.style.setProperty('--secondary-color', savedSecondary);
+    if (savedSecondary) root.style.setProperty('--secondary-color', savedSecondary);
 
 
     // Only add event listeners if inputs exist (on settings page)
