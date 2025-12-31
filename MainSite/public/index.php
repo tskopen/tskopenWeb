@@ -20,31 +20,30 @@
             My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
             </p>
         </section>     
+            <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>
 
         <section class="project-container">
-            <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>
-                
             <article class="project-box">
-                <h3>
+                <h2>
                     Rocketry Flight Computer & Ground Station
-                </h3>
+                </h2>
                 <p>
                     Design of a modular flight computer with GPS, IMU, telemetry, and recovery systems.
                 </p>
             </article>
             <article class="project-box">
-                <h3>
+                <h2>
                     Carbon Fiber Reinforced Concrete (2025)
-                </h3>
+                </h2>
                 <p>
                     Experimental analysis of carbon fiber reinforcement in sidewalk concrete
                     under flexural strength testing (ASTM C78–02).
                 </p>
             </article>
             <article class="project-box">
-                <h3>
+                <h2>
                 MIT Beaverworks CubeSat Competition - Awarded Honorable Mention.
-                </h3>
+                </h2>
                 <p>
                 Team competition with two other friends, Zander Colagno, and Garrison Winters.
                 Competed against 32 other teams. Designed a Cubesat to detect and track wildfires from orbit.

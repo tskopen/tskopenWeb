@@ -145,19 +145,36 @@ ul.nav-menu li:last-child a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     /* each column is at least 300px, but grows to fill space */
     gap: 1.5rem; /* space between boxes */
-    max-width: 900px;
+    max-width: 800px;
     margin: auto;
     padding: 2rem;
 }
 .project-box {
-    border: 1px solid var(--secondary-color);
-    background-color: var(--color-gray-600);
+    border: 2px solid var(--secondary-color);
+    background-color: var(--color-gray-500);
     padding: 1rem;
     border-radius: 8px; /* optional, makes boxes look nicer */
     box-shadow: 0 2px 5px rgba(0,0,0,0.1); /* optional shadow */
     display: flex;
     flex-direction: column; /* stack content inside the box */
 }
+
+.project-box h2 {
+    font-size: 1.25rem;  /* slightly larger than normal text */
+    font-weight: 600;     /* semi-bold */
+    margin-bottom: 0.5rem;
+    color: var(--color-gray-100); /* optional accent color */
+}
+
+/* Paragraphs inside project boxes */
+.project-box p {
+    font-size: 1rem;
+    line-height: 1.5;      /* good readability */
+    color: var(--color-gray-200); /* lighter text on dark background */
+    margin: 0;             /* remove default margin */
+}
+
+
 
 .code-entry {
     border: 1px solid var(--secondary-color);
