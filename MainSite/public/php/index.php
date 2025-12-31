@@ -21,7 +21,7 @@
             This website is under active construction as of December 20th 2025.
             </p>
         </section>     
-            <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>
+            <h2>Featured Projects</h2>
 
         <section class="project-container">
             <article class="project-box">
@@ -75,6 +75,6 @@
             Note this website is under active development and changes often. Please report any errors to tskopen@gmail.com
         </p>
         <p>    © 2025 Thor Kopenkoskey </p>
-ç    </footer>
+     </footer>
 </body>
 </html>

@@ -5,8 +5,8 @@
      ========================= */
   --primary-color: #202020;      /* main text dark gray */
   --secondary-color: #505050;    /* subtle accent for borders/shadows */
-  --primary-action-color: #0066CC;         /* readable blue links */
-  --secondary-action-color: #FF6600;     /* accent orange for buttons */
+  --primary-action-color: #FF6600;         /* readable blue links */
+  --secondary-action-color: #0066CC;     /* accent orange for buttons */
 
   /* =========================
      NEUTRALS / GRAYS
@@ -35,7 +35,7 @@
   /* =========================
      FONTS / SPACING
      ========================= */
-  font-size: 20px;
+  font-size: 16px;
   --margin-xxs: 0.25rem;
   --margin-xs: 0.5rem;
   --margin-s: 0.75rem;
