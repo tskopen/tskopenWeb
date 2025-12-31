@@ -62,7 +62,7 @@ h4
 
 p 
 {
-  color: var(--color-gray-800);
+  color: var(--color-gray-900);
 }
 
 
@@ -145,7 +145,7 @@ ul.nav-menu li:last-child a {
     grid-template-columns: repeat(auto-fit, minmax(300px, 1fr)); 
     /* each column is at least 300px, but grows to fill space */
     gap: 1.5rem; /* space between boxes */
-    max-width: 1200px;
+    max-width: 900px;
     margin: auto;
     padding: 2rem;
 }

@@ -21,10 +21,10 @@
             </p>
         </section>     
 
-        <section class="container-project">
+        <section class="project-container">
             <h2>Featured Projects, See Projects dropdown on the top of the page.</h2>
                 
-            <article class="container-box">
+            <article class="project-box">
                 <h3>
                     Rocketry Flight Computer & Ground Station
                 </h3>
@@ -32,7 +32,7 @@
                     Design of a modular flight computer with GPS, IMU, telemetry, and recovery systems.
                 </p>
             </article>
-            <article class="container-box">
+            <article class="project-box">
                 <h3>
                     Carbon Fiber Reinforced Concrete (2025)
                 </h3>
@@ -41,7 +41,7 @@
                     under flexural strength testing (ASTM C78–02).
                 </p>
             </article>
-            <article class="container-box">
+            <article class="project-box">
                 <h3>
                 MIT Beaverworks CubeSat Competition - Awarded Honorable Mention.
                 </h3>
