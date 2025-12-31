@@ -41,33 +41,27 @@ const redSecondaryBtn = document.getElementById('redSecondaryBtn');
     }
 
 
-    window.applyBluePrimary = () => applyPreset
-    ({
+    window.applyBluePrimary = () => applyPreset({
         primary: "#003F91",
     });
 
-    window.applyGreenPrimary = () => applyPreset
-    ({
+    window.applyGreenPrimary = () => applyPreset({
         primary: "#2C5F34",
     });
 
-    window.applyRedPrimary = () => applyPreset
-    ({
+    window.applyRedPrimary = () => applyPreset({
         primary: "#931621",
     });
 
-    window.applyBlueSecondary = () => applyPreset
-    ({
+    window.applyBlueSecondary = () => applyPreset({
         secondary: "#003F91",
     });
 
-    window.applyGreenSecondary = () => applyPreset
-    ({
+    window.applyGreenSecondary = () => applyPreset({
         secondary: "#2C5F34",
     });
 
-    window.applyRedSecondary = () => applyPreset
-    ({
+    window.applyRedSecondary = () => applyPreset({
         secondary: "#931621",
     });
 
