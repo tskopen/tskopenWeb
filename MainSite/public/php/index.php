@@ -12,7 +12,7 @@
 
 
     <main>
-        <section style="display: flex; align-items: flex-start; gap: 30px; padding: 20px; margin-bottom: 30px; border-radius: 25px; border: 2px solid #FF6600">
+        <section style="display: flex; align-items: flex-start; gap: 30px; padding: 20px; margin: 30px; border-radius: 25px; border: 2px solid #505050">
             <div>
                 <h1>Thor Kopenkoskey</h1>
                 <p>
@@ -24,7 +24,7 @@
                 This website is under active construction as of December 20th 2025.
                 </p>
             </div>
-        <img src="/images/Grey-Shirt-Selfie.jpg" alt="Selfie of Thor Kopenkoskey" width="200" height="300" style="float:right; border: 2px solid #0066CC; border-radius: 25px;"> 
+        <img src="/images/Grey-Shirt-Selfie.jpg" alt="Selfie of Thor Kopenkoskey" width="200" height="300" style="float:right; border: 2px solid #FF6600; border-radius: 25px;"> 
         </section>     
             <h2>Featured Projects</h2>
 
