@@ -12,14 +12,15 @@
 
 
     <main>
-           <section>
-            <h2>Who Am I</h2></h2>
+        <section>
+            <h1>Thor Kopenkoskey</h1>
             <p>
             My name is Thor Kopenkoskey, I am a student at Florida Institute of Technology.
             This website acts as a display for my projects and as a resource for projects that require web infastructure.
             My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
             This website is under active construction as of December 20th 2025.
             </p>
+        <img src="Selfie-Rocket.jpg" alt="Selfie of Thor Kopenkoskey" width="500" height="600"> 
         </section>     
             <h2>Featured Projects</h2>
 
@@ -67,7 +68,6 @@
                     </p>
                 </article>
             </a>
-
         </section>
 
 

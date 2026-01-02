@@ -57,9 +57,9 @@ body {
 }
 
 h1 { color: var(--color-gray-950); }
-h2 { color: var(--color-gray-900); }
-h3 { color: var(--color-gray-800); }
-h4 { color: var(--color-gray-700); }
+h2 { color: var(--color-gray-950); }
+h3 { color: var(--color-gray-850); }
+h4 { color: var(--color-gray-750); }
 
 p, li, br { color: var(--primary-color); }
 
