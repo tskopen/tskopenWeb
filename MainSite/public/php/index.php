@@ -20,7 +20,7 @@
             My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
             This website is under active construction as of December 20th 2025.
             </p>
-        <img src="/images/Selfie-Rocket.JPG" alt="Selfie of Thor Kopenkoskey" width="500" height="600" style="float:left"> 
+        <img src="/images/Grey-Shirt-Selfie.JPG" alt="Selfie of Thor Kopenkoskey" width="400" height="500" style="float:right"> 
         </section>     
             <h2>Featured Projects</h2>
 
