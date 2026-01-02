@@ -35,7 +35,7 @@
   /* =========================
      FONTS / SPACING
      ========================= */
-  font-size: 16px;
+  font-size: 20px;
   --margin-xxs: 0.25rem;
   --margin-xs: 0.5rem;
   --margin-s: 0.75rem;
@@ -70,7 +70,7 @@ ul.nav-menu {
   list-style: none;
   margin: 0;
   padding: 0;
-  background-color: var(--color-gray-35);
+  background-color: var(--color-gray-350);
   display: flex;
   position: fixed;
   top: 0;
