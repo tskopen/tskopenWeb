@@ -12,7 +12,7 @@
 
 
     <main>
-        <section>
+        <section style="display: flex; align-items: flex-start; gap: 30px; padding: 20px; margin-bottom: 30px;">
             <h1>Thor Kopenkoskey</h1>
             <p>
             My name is Thor Kopenkoskey, I am a student at Florida Institute of Technology.
@@ -20,7 +20,7 @@
             My hobbies include Engineering projects, Running, Rock Climbing, Board games, and camping.
             This website is under active construction as of December 20th 2025.
             </p>
-        <img src="/images/Grey-Shirt-Selfie.JPG" alt="Selfie of Thor Kopenkoskey" width="400" height="500" style="float:right"> 
+        <img src="/images/Grey-Shirt-Selfie.NEF.JPG" alt="Selfie of Thor Kopenkoskey" width="400" height="500" style="float:right"> 
         </section>     
             <h2>Featured Projects</h2>
 
