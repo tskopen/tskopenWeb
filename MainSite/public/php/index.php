@@ -12,7 +12,7 @@
 
 
     <main>
-        <section style="display: flex; align-items: flex-start; gap: 30px; padding: 20px; margin-bottom: 30px; border-radius: 25px; border: 2px solid #0066CC">
+        <section style="display: flex; align-items: flex-start; gap: 30px; padding: 20px; margin-bottom: 30px; border-radius: 25px; border: 2px solid #FF6600">
             <div>
                 <h1>Thor Kopenkoskey</h1>
                 <p>
